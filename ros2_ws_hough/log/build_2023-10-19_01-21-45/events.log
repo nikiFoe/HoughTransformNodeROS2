@@ -1,0 +1,400 @@
+[0.000000] (-) TimerEvent: {}
+[0.000582] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.001328] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.001498] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.001621] (-) JobUnselected: {'identifier': 'houghmessage'}
+[0.001837] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.002629] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.002819] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.002912] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.003131] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.003358] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.003652] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.003835] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.003930] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.004191] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.004288] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.004462] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.004576] (rwth) JobQueued: {'identifier': 'rwth', 'dependencies': OrderedDict()}
+[0.004789] (rwth) JobStarted: {'identifier': 'rwth'}
+[0.099460] (-) TimerEvent: {}
+[0.117431] (rwth) JobProgress: {'identifier': 'rwth', 'progress': 'cmake'}
+[0.118472] (rwth) JobProgress: {'identifier': 'rwth', 'progress': 'build'}
+[0.119440] (rwth) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth', '--', '-j8', '-l8'], 'cwd': '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'niklas'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_msgs/lib:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/houghmessage/lib:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_custom_interfaces/lib:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/niklas'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '3323'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'niklas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'niklas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/niklas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/niklas-Lenovo-V155-15API:@/tmp/.ICE-unix/1827,unix/niklas-Lenovo-V155-15API:/tmp/.ICE-unix/1827'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1fba17ae_4431_4ca2_ac66_009b36e8769a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TY2NC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_simulations:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_bringup:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_node:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_navigation2:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_fake_node:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_msgs:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_description:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_cartographer:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/houghmessage:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_examples:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_custom_interfaces:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example/lib/python3.10/site-packages:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/houghmessage/local/lib/python3.10/dist-packages:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_simulations:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_bringup:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_node:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_navigation2:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_fake_node:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_msgs:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_description:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_cartographer:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/houghmessage:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_examples:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_custom_interfaces:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.199602] (-) TimerEvent: {}
+[0.210203] (rwth) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rwth_publish\x1b[0m\n'}
+[0.250822] (rwth) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rwth_publish.dir/src/rwth.cpp.o\x1b[0m\n'}
+[0.299738] (-) TimerEvent: {}
+[0.400212] (-) TimerEvent: {}
+[0.500716] (-) TimerEvent: {}
+[0.601346] (-) TimerEvent: {}
+[0.701939] (-) TimerEvent: {}
+[0.802609] (-) TimerEvent: {}
+[0.903141] (-) TimerEvent: {}
+[1.003627] (-) TimerEvent: {}
+[1.104059] (-) TimerEvent: {}
+[1.204644] (-) TimerEvent: {}
+[1.305193] (-) TimerEvent: {}
+[1.405612] (-) TimerEvent: {}
+[1.506146] (-) TimerEvent: {}
+[1.606744] (-) TimerEvent: {}
+[1.707291] (-) TimerEvent: {}
+[1.807858] (-) TimerEvent: {}
+[1.908478] (-) TimerEvent: {}
+[2.009037] (-) TimerEvent: {}
+[2.109553] (-) TimerEvent: {}
+[2.210013] (-) TimerEvent: {}
+[2.310545] (-) TimerEvent: {}
+[2.411117] (-) TimerEvent: {}
+[2.511668] (-) TimerEvent: {}
+[2.612194] (-) TimerEvent: {}
+[2.712819] (-) TimerEvent: {}
+[2.813346] (-) TimerEvent: {}
+[2.913852] (-) TimerEvent: {}
+[3.014381] (-) TimerEvent: {}
+[3.114880] (-) TimerEvent: {}
+[3.215400] (-) TimerEvent: {}
+[3.315961] (-) TimerEvent: {}
+[3.416382] (-) TimerEvent: {}
+[3.516832] (-) TimerEvent: {}
+[3.617376] (-) TimerEvent: {}
+[3.701579] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[3.702018] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:61:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.702434] (rwth) StderrLine: {'line': b'   61 |                         for(int i = 0; \x1b[01;35m\x1b[Ki < ranges.size()\x1b[m\x1b[K; i++)\n'}
+[3.702667] (rwth) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.702888] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:74:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.703144] (rwth) StderrLine: {'line': b'   74 |                         for (int i = 0; \x1b[01;35m\x1b[Ki < ranges.size()\x1b[m\x1b[K; ++i) {\n'}
+[3.703336] (rwth) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.703528] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:83:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[KC\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla\x07-Wvla\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.703729] (rwth) StderrLine: {'line': b'   83 |                         float \x1b[01;35m\x1b[KC\x1b[m\x1b[K[Nr][NTh]={};\n'}
+[3.703921] (rwth) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.704107] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:83:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[KC\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla\x07-Wvla\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.704890] (rwth) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.705135] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.705313] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.705484] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.705662] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.705837] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.707075] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.707630] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.707836] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.708027] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.708220] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.708413] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:9\x1b[m\x1b[K:\n'}
+[3.708608] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:114:87:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%i\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.709622] (rwth) StderrLine: {'line': b'  114 |                                         RCLCPP_INFO(rclcpp::get_logger("Indexing k"), \x1b[01;35m\x1b[K"k_ind: %i, ranges_size: %i, phi_size: %i, R_size: %i"\x1b[m\x1b[K, \x1b[32m\x1b[Kk\x1b[m\x1b[K, ranges.size(), phi.size(), R.size());\n'}
+[3.709938] (rwth) StderrLine: {'line': b'      |                                                                                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[3.710178] (rwth) StderrLine: {'line': b'      |                                                                                                                                               \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.710431] (rwth) StderrLine: {'line': b'      |                                                                                                                                               \x1b[32m\x1b[Ksize_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[3.710631] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:114:96:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[3.710831] (rwth) StderrLine: {'line': b'  114 |                                         RCLCPP_INFO(rclcpp::get_logger("Indexing k"), "k_ind: \x1b[01;36m\x1b[K%i\x1b[m\x1b[K, ranges_size: %i, phi_size: %i, R_size: %i", k, ranges.size(), phi.size(), R.size());\n'}
+[3.711014] (rwth) StderrLine: {'line': b'      |                                                                                               \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[3.711204] (rwth) StderrLine: {'line': b'      |                                                                                                \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[3.711373] (rwth) StderrLine: {'line': b'      |                                                                                                \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[3.711660] (rwth) StderrLine: {'line': b'      |                                                                                               \x1b[32m\x1b[K%li\x1b[m\x1b[K\n'}
+[3.711836] (rwth) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.711997] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.712170] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.712465] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.712604] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.712768] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.712933] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.713101] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.713266] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.713436] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.713604] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.713771] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:9\x1b[m\x1b[K:\n'}
+[3.713970] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:114:87:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%i\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.714143] (rwth) StderrLine: {'line': b'  114 |                                         RCLCPP_INFO(rclcpp::get_logger("Indexing k"), \x1b[01;35m\x1b[K"k_ind: %i, ranges_size: %i, phi_size: %i, R_size: %i"\x1b[m\x1b[K, k, \x1b[32m\x1b[Kranges.size()\x1b[m\x1b[K, phi.size(), R.size());\n'}
+[3.714352] (rwth) StderrLine: {'line': b'      |                                                                                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K     \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.714565] (rwth) StderrLine: {'line': b'      |                                                                                                                                                             \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.714749] (rwth) StderrLine: {'line': b'      |                                                                                                                                                             \x1b[32m\x1b[Kstd::vector<float>::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[3.714916] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:114:113:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[3.715090] (rwth) StderrLine: {'line': b'  114 |                                         RCLCPP_INFO(rclcpp::get_logger("Indexing k"), "k_ind: %i, ranges_size: \x1b[01;36m\x1b[K%i\x1b[m\x1b[K, phi_size: %i, R_size: %i", k, ranges.size(), phi.size(), R.size());\n'}
+[3.715244] (rwth) StderrLine: {'line': b'      |                                                                                                                \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[3.715428] (rwth) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[3.715604] (rwth) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[3.715757] (rwth) StderrLine: {'line': b'      |                                                                                                                \x1b[32m\x1b[K%li\x1b[m\x1b[K\n'}
+[3.715911] (rwth) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.716066] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.716217] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.716343] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.716501] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.716644] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.716773] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.716936] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.717064] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.717192] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.717324] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.717454] (-) TimerEvent: {}
+[3.717695] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:9\x1b[m\x1b[K:\n'}
+[3.717842] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:114:87:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%i\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.717994] (rwth) StderrLine: {'line': b'  114 |                                         RCLCPP_INFO(rclcpp::get_logger("Indexing k"), \x1b[01;35m\x1b[K"k_ind: %i, ranges_size: %i, phi_size: %i, R_size: %i"\x1b[m\x1b[K, k, ranges.size(), \x1b[32m\x1b[Kphi.size()\x1b[m\x1b[K, R.size());\n'}
+[3.718124] (rwth) StderrLine: {'line': b'      |                                                                                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                    \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.718244] (rwth) StderrLine: {'line': b'      |                                                                                                                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.718379] (rwth) StderrLine: {'line': b'      |                                                                                                                                                                         \x1b[32m\x1b[Kstd::vector<float>::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[3.718493] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:114:127:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[3.718592] (rwth) StderrLine: {'line': b'  114 |                                         RCLCPP_INFO(rclcpp::get_logger("Indexing k"), "k_ind: %i, ranges_size: %i, phi_size: \x1b[01;36m\x1b[K%i\x1b[m\x1b[K, R_size: %i", k, ranges.size(), phi.size(), R.size());\n'}
+[3.718689] (rwth) StderrLine: {'line': b'      |                                                                                                                              \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[3.718784] (rwth) StderrLine: {'line': b'      |                                                                                                                               \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[3.718876] (rwth) StderrLine: {'line': b'      |                                                                                                                               \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[3.718965] (rwth) StderrLine: {'line': b'      |                                                                                                                              \x1b[32m\x1b[K%li\x1b[m\x1b[K\n'}
+[3.719065] (rwth) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.719179] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.719286] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.719392] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.719488] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.719583] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.719679] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.719771] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.719870] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.719968] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.720062] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.720157] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:9\x1b[m\x1b[K:\n'}
+[3.720253] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:114:87:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%i\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 8 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.720355] (rwth) StderrLine: {'line': b'  114 |                                         RCLCPP_INFO(rclcpp::get_logger("Indexing k"), \x1b[01;35m\x1b[K"k_ind: %i, ranges_size: %i, phi_size: %i, R_size: %i"\x1b[m\x1b[K, k, ranges.size(), phi.size(), \x1b[32m\x1b[KR.size()\x1b[m\x1b[K);\n'}
+[3.720454] (rwth) StderrLine: {'line': b'      |                                                                                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                \x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[3.720555] (rwth) StderrLine: {'line': b'      |                                                                                                                                                                                   \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.720651] (rwth) StderrLine: {'line': b'      |                                                                                                                                                                                   \x1b[32m\x1b[Kstd::vector<float>::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[3.720747] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:114:139:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[3.720847] (rwth) StderrLine: {'line': b'  114 |                                         RCLCPP_INFO(rclcpp::get_logger("Indexing k"), "k_ind: %i, ranges_size: %i, phi_size: %i, R_size: \x1b[01;36m\x1b[K%i\x1b[m\x1b[K", k, ranges.size(), phi.size(), R.size());\n'}
+[3.720981] (rwth) StderrLine: {'line': b'      |                                                                                                                                          \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[3.721084] (rwth) StderrLine: {'line': b'      |                                                                                                                                           \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[3.721182] (rwth) StderrLine: {'line': b'      |                                                                                                                                           \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[3.721278] (rwth) StderrLine: {'line': b'      |                                                                                                                                          \x1b[32m\x1b[K%li\x1b[m\x1b[K\n'}
+[3.721374] (rwth) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.721474] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.721570] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.721669] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.721767] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.721863] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.721963] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.722089] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.722217] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.722389] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.722522] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.722651] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:9\x1b[m\x1b[K:\n'}
+[3.722785] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:116:87:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%i\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.722888] (rwth) StderrLine: {'line': b'  116 |                                         RCLCPP_INFO(rclcpp::get_logger("Indexing k"), \x1b[01;35m\x1b[K"k_ind: %i, ranges_size: %i, phi_size: %i, R_size: %i"\x1b[m\x1b[K, \x1b[32m\x1b[Kk\x1b[m\x1b[K, ranges.size(), phi.size(), R.size());\n'}
+[3.722990] (rwth) StderrLine: {'line': b'      |                                                                                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[3.723089] (rwth) StderrLine: {'line': b'      |                                                                                                                                               \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.723208] (rwth) StderrLine: {'line': b'      |                                                                                                                                               \x1b[32m\x1b[Ksize_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[3.723306] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:116:96:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[3.723405] (rwth) StderrLine: {'line': b'  116 |                                         RCLCPP_INFO(rclcpp::get_logger("Indexing k"), "k_ind: \x1b[01;36m\x1b[K%i\x1b[m\x1b[K, ranges_size: %i, phi_size: %i, R_size: %i", k, ranges.size(), phi.size(), R.size());\n'}
+[3.723504] (rwth) StderrLine: {'line': b'      |                                                                                               \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[3.723599] (rwth) StderrLine: {'line': b'      |                                                                                                \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[3.723695] (rwth) StderrLine: {'line': b'      |                                                                                                \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[3.723794] (rwth) StderrLine: {'line': b'      |                                                                                               \x1b[32m\x1b[K%li\x1b[m\x1b[K\n'}
+[3.723908] (rwth) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.724016] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.724112] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.724221] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.724321] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.724422] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.724519] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.724615] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.724737] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.724878] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.725006] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.725103] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:9\x1b[m\x1b[K:\n'}
+[3.725236] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:116:87:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%i\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.725592] (rwth) StderrLine: {'line': b'  116 |                                         RCLCPP_INFO(rclcpp::get_logger("Indexing k"), \x1b[01;35m\x1b[K"k_ind: %i, ranges_size: %i, phi_size: %i, R_size: %i"\x1b[m\x1b[K, k, \x1b[32m\x1b[Kranges.size()\x1b[m\x1b[K, phi.size(), R.size());\n'}
+[3.725740] (rwth) StderrLine: {'line': b'      |                                                                                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K     \x1b[32m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.725844] (rwth) StderrLine: {'line': b'      |                                                                                                                                                             \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.725950] (rwth) StderrLine: {'line': b'      |                                                                                                                                                             \x1b[32m\x1b[Kstd::vector<float>::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[3.726052] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:116:113:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[3.726153] (rwth) StderrLine: {'line': b'  116 |                                         RCLCPP_INFO(rclcpp::get_logger("Indexing k"), "k_ind: %i, ranges_size: \x1b[01;36m\x1b[K%i\x1b[m\x1b[K, phi_size: %i, R_size: %i", k, ranges.size(), phi.size(), R.size());\n'}
+[3.726252] (rwth) StderrLine: {'line': b'      |                                                                                                                \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[3.726395] (rwth) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[3.726504] (rwth) StderrLine: {'line': b'      |                                                                                                                 \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[3.726620] (rwth) StderrLine: {'line': b'      |                                                                                                                \x1b[32m\x1b[K%li\x1b[m\x1b[K\n'}
+[3.726716] (rwth) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.726811] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.726908] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.727007] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.727103] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.727230] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.727334] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.727430] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.727528] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.727626] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.727725] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.727838] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:9\x1b[m\x1b[K:\n'}
+[3.727966] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:116:87:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%i\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.728086] (rwth) StderrLine: {'line': b'  116 |                                         RCLCPP_INFO(rclcpp::get_logger("Indexing k"), \x1b[01;35m\x1b[K"k_ind: %i, ranges_size: %i, phi_size: %i, R_size: %i"\x1b[m\x1b[K, k, ranges.size(), \x1b[32m\x1b[Kphi.size()\x1b[m\x1b[K, R.size());\n'}
+[3.728191] (rwth) StderrLine: {'line': b'      |                                                                                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                    \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.728291] (rwth) StderrLine: {'line': b'      |                                                                                                                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.728392] (rwth) StderrLine: {'line': b'      |                                                                                                                                                                         \x1b[32m\x1b[Kstd::vector<float>::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[3.728515] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:116:127:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[3.728613] (rwth) StderrLine: {'line': b'  116 |                                         RCLCPP_INFO(rclcpp::get_logger("Indexing k"), "k_ind: %i, ranges_size: %i, phi_size: \x1b[01;36m\x1b[K%i\x1b[m\x1b[K, R_size: %i", k, ranges.size(), phi.size(), R.size());\n'}
+[3.728735] (rwth) StderrLine: {'line': b'      |                                                                                                                              \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[3.728840] (rwth) StderrLine: {'line': b'      |                                                                                                                               \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[3.728941] (rwth) StderrLine: {'line': b'      |                                                                                                                               \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[3.729046] (rwth) StderrLine: {'line': b'      |                                                                                                                              \x1b[32m\x1b[K%li\x1b[m\x1b[K\n'}
+[3.729146] (rwth) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.729245] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.729344] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.729446] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.729563] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.729664] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.729761] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.729879] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.729997] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.730113] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.730212] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.730343] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:9\x1b[m\x1b[K:\n'}
+[3.730446] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:116:87:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%i\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 8 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.730565] (rwth) StderrLine: {'line': b'  116 |                                         RCLCPP_INFO(rclcpp::get_logger("Indexing k"), \x1b[01;35m\x1b[K"k_ind: %i, ranges_size: %i, phi_size: %i, R_size: %i"\x1b[m\x1b[K, k, ranges.size(), phi.size(), \x1b[32m\x1b[KR.size()\x1b[m\x1b[K);\n'}
+[3.730676] (rwth) StderrLine: {'line': b'      |                                                                                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                \x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[3.730783] (rwth) StderrLine: {'line': b'      |                                                                                                                                                                                   \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.730881] (rwth) StderrLine: {'line': b'      |                                                                                                                                                                                   \x1b[32m\x1b[Kstd::vector<float>::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[3.730980] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:116:139:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[3.731077] (rwth) StderrLine: {'line': b'  116 |                                         RCLCPP_INFO(rclcpp::get_logger("Indexing k"), "k_ind: %i, ranges_size: %i, phi_size: %i, R_size: \x1b[01;36m\x1b[K%i\x1b[m\x1b[K", k, ranges.size(), phi.size(), R.size());\n'}
+[3.731178] (rwth) StderrLine: {'line': b'      |                                                                                                                                          \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[3.731292] (rwth) StderrLine: {'line': b'      |                                                                                                                                           \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[3.731402] (rwth) StderrLine: {'line': b'      |                                                                                                                                           \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[3.731501] (rwth) StderrLine: {'line': b'      |                                                                                                                                          \x1b[32m\x1b[K%li\x1b[m\x1b[K\n'}
+[3.731622] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:52:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kangle_max\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.731739] (rwth) StderrLine: {'line': b'   52 |                         float \x1b[01;35m\x1b[Kangle_max\x1b[m\x1b[K = msg->angle_max;\n'}
+[3.731836] (rwth) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.731934] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:54:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Krange_min\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.732032] (rwth) StderrLine: {'line': b'   54 |                         float \x1b[01;35m\x1b[Krange_min\x1b[m\x1b[K = msg->range_min;\n'}
+[3.732126] (rwth) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.732230] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:55:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Krange_max\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.732333] (rwth) StderrLine: {'line': b'   55 |                         float \x1b[01;35m\x1b[Krange_max\x1b[m\x1b[K = msg->range_max;\n'}
+[3.732456] (rwth) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.732575] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:81:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KNrOfMeas\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.732678] (rwth) StderrLine: {'line': b'   81 |                         int \x1b[01;35m\x1b[KNrOfMeas\x1b[m\x1b[K=ranges.size();\n'}
+[3.732771] (rwth) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.732867] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:103:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktres\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.732965] (rwth) StderrLine: {'line': b'  103 |                         float \x1b[01;35m\x1b[Ktres\x1b[m\x1b[K=0.1;\n'}
+[3.733062] (rwth) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.817633] (-) TimerEvent: {}
+[3.918193] (-) TimerEvent: {}
+[4.018670] (-) TimerEvent: {}
+[4.119145] (-) TimerEvent: {}
+[4.219774] (-) TimerEvent: {}
+[4.320350] (-) TimerEvent: {}
+[4.421036] (-) TimerEvent: {}
+[4.521703] (-) TimerEvent: {}
+[4.622238] (-) TimerEvent: {}
+[4.722758] (-) TimerEvent: {}
+[4.823173] (-) TimerEvent: {}
+[4.923619] (-) TimerEvent: {}
+[5.024084] (-) TimerEvent: {}
+[5.124517] (-) TimerEvent: {}
+[5.225036] (-) TimerEvent: {}
+[5.325484] (-) TimerEvent: {}
+[5.425893] (-) TimerEvent: {}
+[5.526437] (-) TimerEvent: {}
+[5.627014] (-) TimerEvent: {}
+[5.727484] (-) TimerEvent: {}
+[5.827968] (-) TimerEvent: {}
+[5.928482] (-) TimerEvent: {}
+[6.028904] (-) TimerEvent: {}
+[6.129380] (-) TimerEvent: {}
+[6.229886] (-) TimerEvent: {}
+[6.330382] (-) TimerEvent: {}
+[6.430856] (-) TimerEvent: {}
+[6.531312] (-) TimerEvent: {}
+[6.631779] (-) TimerEvent: {}
+[6.732292] (-) TimerEvent: {}
+[6.832837] (-) TimerEvent: {}
+[6.933283] (-) TimerEvent: {}
+[7.033891] (-) TimerEvent: {}
+[7.134362] (-) TimerEvent: {}
+[7.234809] (-) TimerEvent: {}
+[7.335230] (-) TimerEvent: {}
+[7.435648] (-) TimerEvent: {}
+[7.536099] (-) TimerEvent: {}
+[7.636631] (-) TimerEvent: {}
+[7.737087] (-) TimerEvent: {}
+[7.837547] (-) TimerEvent: {}
+[7.938087] (-) TimerEvent: {}
+[8.038516] (-) TimerEvent: {}
+[8.138961] (-) TimerEvent: {}
+[8.239394] (-) TimerEvent: {}
+[8.339899] (-) TimerEvent: {}
+[8.440354] (-) TimerEvent: {}
+[8.540746] (-) TimerEvent: {}
+[8.641143] (-) TimerEvent: {}
+[8.741715] (-) TimerEvent: {}
+[8.842356] (-) TimerEvent: {}
+[8.942857] (-) TimerEvent: {}
+[9.043397] (-) TimerEvent: {}
+[9.143808] (-) TimerEvent: {}
+[9.244204] (-) TimerEvent: {}
+[9.344610] (-) TimerEvent: {}
+[9.445043] (-) TimerEvent: {}
+[9.545518] (-) TimerEvent: {}
+[9.645948] (-) TimerEvent: {}
+[9.746363] (-) TimerEvent: {}
+[9.846747] (-) TimerEvent: {}
+[9.947138] (-) TimerEvent: {}
+[10.047608] (-) TimerEvent: {}
+[10.148102] (-) TimerEvent: {}
+[10.248629] (-) TimerEvent: {}
+[10.349062] (-) TimerEvent: {}
+[10.449513] (-) TimerEvent: {}
+[10.550007] (-) TimerEvent: {}
+[10.650484] (-) TimerEvent: {}
+[10.750998] (-) TimerEvent: {}
+[10.851577] (-) TimerEvent: {}
+[10.952098] (-) TimerEvent: {}
+[11.052537] (-) TimerEvent: {}
+[11.153030] (-) TimerEvent: {}
+[11.253557] (-) TimerEvent: {}
+[11.354204] (-) TimerEvent: {}
+[11.454771] (-) TimerEvent: {}
+[11.555405] (-) TimerEvent: {}
+[11.656004] (-) TimerEvent: {}
+[11.756450] (-) TimerEvent: {}
+[11.856925] (-) TimerEvent: {}
+[11.957494] (-) TimerEvent: {}
+[12.058093] (-) TimerEvent: {}
+[12.158508] (-) TimerEvent: {}
+[12.258966] (-) TimerEvent: {}
+[12.359394] (-) TimerEvent: {}
+[12.459810] (-) TimerEvent: {}
+[12.560270] (-) TimerEvent: {}
+[12.661145] (-) TimerEvent: {}
+[12.761601] (-) TimerEvent: {}
+[12.862108] (-) TimerEvent: {}
+[12.899550] (rwth) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rwth_publish\x1b[0m\n'}
+[12.962359] (-) TimerEvent: {}
+[13.062937] (-) TimerEvent: {}
+[13.163455] (-) TimerEvent: {}
+[13.263984] (-) TimerEvent: {}
+[13.364459] (-) TimerEvent: {}
+[13.465165] (-) TimerEvent: {}
+[13.565665] (-) TimerEvent: {}
+[13.666342] (-) TimerEvent: {}
+[13.751833] (rwth) StdoutLine: {'line': b'[100%] Built target rwth_publish\n'}
+[13.766471] (-) TimerEvent: {}
+[13.778212] (rwth) CommandEnded: {'returncode': 0}
+[13.841311] (rwth) JobProgress: {'identifier': 'rwth', 'progress': 'install'}
+[13.858777] (rwth) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth'], 'cwd': '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'niklas'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_msgs/lib:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/houghmessage/lib:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_custom_interfaces/lib:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/niklas'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '3323'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'niklas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'niklas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/niklas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/niklas-Lenovo-V155-15API:@/tmp/.ICE-unix/1827,unix/niklas-Lenovo-V155-15API:/tmp/.ICE-unix/1827'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1fba17ae_4431_4ca2_ac66_009b36e8769a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TY2NC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_simulations:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_bringup:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_node:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_navigation2:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_fake_node:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_msgs:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_description:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_cartographer:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/houghmessage:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_examples:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_custom_interfaces:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example/lib/python3.10/site-packages:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/houghmessage/local/lib/python3.10/dist-packages:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_simulations:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_bringup:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_node:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_navigation2:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_fake_node:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_msgs:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_description:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_cartographer:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/houghmessage:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_examples:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_custom_interfaces:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[13.866623] (-) TimerEvent: {}
+[13.873298] (rwth) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.873649] (rwth) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/lib/rwth/rwth_publish\n'}
+[13.884725] (rwth) StdoutLine: {'line': b'-- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/lib/rwth/rwth_publish" to ""\n'}
+[13.885139] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/ament_index/resource_index/package_run_dependencies/rwth\n'}
+[13.885330] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/ament_index/resource_index/parent_prefix_path/rwth\n'}
+[13.885482] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/environment/ament_prefix_path.sh\n'}
+[13.886245] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/environment/ament_prefix_path.dsv\n'}
+[13.886754] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/environment/path.sh\n'}
+[13.886972] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/environment/path.dsv\n'}
+[13.887178] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/local_setup.bash\n'}
+[13.887361] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/local_setup.sh\n'}
+[13.887575] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/local_setup.zsh\n'}
+[13.887759] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/local_setup.dsv\n'}
+[13.887941] (rwth) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/package.dsv\n'}
+[13.888086] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/ament_index/resource_index/packages/rwth\n'}
+[13.888195] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/cmake/rwthConfig.cmake\n'}
+[13.888299] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/cmake/rwthConfig-version.cmake\n'}
+[13.888428] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/package.xml\n'}
+[13.890371] (rwth) CommandEnded: {'returncode': 0}
+[13.966739] (-) TimerEvent: {}
+[14.068381] (-) TimerEvent: {}
+[14.163201] (rwth) JobEnded: {'identifier': 'rwth', 'rc': 0}
+[14.166054] (-) EventReactorShutdown: {}

@@ -1,0 +1,50 @@
+[0.167s] Invoking command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2
+[1.908s] -- The C compiler identification is GNU 11.4.0
+[1.908s] -- The CXX compiler identification is GNU 11.4.0
+[1.908s] -- Detecting C compiler ABI info
+[1.909s] -- Detecting C compiler ABI info - done
+[1.909s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.909s] -- Detecting C compile features
+[1.909s] -- Detecting C compile features - done
+[1.909s] -- Detecting CXX compiler ABI info
+[1.909s] -- Detecting CXX compiler ABI info - done
+[1.909s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.910s] -- Detecting CXX compile features
+[1.910s] -- Detecting CXX compile features - done
+[1.910s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.910s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.921s] -- Configuring done
+[1.927s] -- Generating done
+[1.929s] -- Build files have been written to: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/turtlebot3_navigation2
+[1.940s] Invoked command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2
+[1.941s] Invoking command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/turtlebot3_navigation2 -- -j8 -l8
+[2.027s] Invoked command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/turtlebot3_navigation2 -- -j8 -l8
+[2.298s] Invoking command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/turtlebot3_navigation2
+[2.331s] -- Install configuration: ""
+[2.332s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch
+[2.353s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[2.353s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map
+[2.354s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[2.354s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[2.357s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param
+[2.364s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[2.365s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[2.372s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[2.373s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz
+[2.373s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[2.377s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[2.377s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[2.377s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[2.377s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[2.377s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[2.378s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[2.378s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[2.378s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[2.379s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[2.379s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[2.379s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[2.380s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[2.380s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[2.381s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[2.381s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[2.631s] Invoked command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/turtlebot3_navigation2

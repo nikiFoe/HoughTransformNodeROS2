@@ -1,0 +1,43 @@
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:[m[K In lambda function:
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:60:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   60 |                         for(int i = 0; [01;35m[Ki < ranges.size()[m[K; i++)
+      |                                        [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:73:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   73 |                         for (int i = 0; [01;35m[Ki < ranges.size()[m[K; ++i) {
+      |                                         [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:82:31:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KC[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+   82 |                         float [01;35m[KC[m[K[Nr][NTh]={};
+      |                               [01;35m[K^[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:82:31:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KC[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:111:51:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  111 |                                 for (int k = 0; [01;35m[Kk < ranges.size()[m[K; k++)
+      |                                                 [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:117:49:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  117 |                                 for (int j=1; [01;35m[Kj < R.size()[m[K; j++)
+      |                                               [01;35m[K~~^~~~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:51:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_max[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   51 |                         float [01;35m[Kangle_max[m[K = msg->angle_max;
+      |                               [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:53:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krange_min[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   53 |                         float [01;35m[Krange_min[m[K = msg->range_min;
+      |                               [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:54:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krange_max[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   54 |                         float [01;35m[Krange_max[m[K = msg->range_max;
+      |                               [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:80:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNrOfMeas[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   80 |                         int [01;35m[KNrOfMeas[m[K=ranges.size();
+      |                             [01;35m[K^~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:102:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  102 |                         float [01;35m[Ktres[m[K=0.1;
+      |                               [01;35m[K^~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:[m[K In lambda function:
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:220:65:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kempty[m[K’ in ‘[01m[KThAxis_global[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+  220 |                 dataReady.wait(lock, [] { return !ThAxis_global.[01;31m[Kempty[m[K(); });
+      |                                                                 [01;31m[K^~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:223:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kclear[m[K’ in ‘[01m[KThAxis_global[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+  223 |                 ThAxis_global.[01;31m[Kclear[m[K();
+      |                               [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/rwth_publish.dir/build.make:76: CMakeFiles/rwth_publish.dir/src/rwth.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rwth_publish.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

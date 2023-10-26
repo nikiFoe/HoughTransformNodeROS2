@@ -1,0 +1,19 @@
+{
+  "package_name": "houghmessage",
+  "output_dir": "/home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/build/houghmessage/rosidl_typesupport_introspection_c/houghmessage",
+  "template_dir": "/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/build/houghmessage/rosidl_adapter/houghmessage:msg/RWhoughLine.idl"
+  ],
+  "target_dependencies": [
+    "/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/lib/python3.9/site-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/build/houghmessage/rosidl_adapter/houghmessage/msg/RWhoughLine.idl"
+  ]
+}

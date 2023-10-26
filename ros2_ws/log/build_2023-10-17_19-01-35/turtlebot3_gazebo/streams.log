@@ -1,0 +1,113 @@
+[0.225s] Invoking command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_gazebo
+[0.383s] -- The C compiler identification is GNU 11.4.0
+[0.550s] -- The CXX compiler identification is GNU 11.4.0
+[0.579s] -- Detecting C compiler ABI info
+[0.782s] -- Detecting C compiler ABI info - done
+[0.813s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.814s] -- Detecting C compile features
+[0.814s] -- Detecting C compile features - done
+[0.814s] -- Detecting CXX compiler ABI info
+[1.029s] -- Detecting CXX compiler ABI info - done
+[1.052s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.052s] -- Detecting CXX compile features
+[1.052s] -- Detecting CXX compile features - done
+[1.057s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.545s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.841s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.842s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[1.842s]   does not match the name of the calling package (gazebo).  This can lead to
+[1.843s]   problems in calling code that expects `find_package` result variables
+[1.843s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.843s] Call Stack (most recent call first):
+[1.844s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[1.844s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[1.844s]   CMakeLists.txt:23 (find_package)
+[1.844s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.845s] [0m
+[1.846s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.859s] -- Checking for module 'bullet>=2.82'
+[1.899s] --   Found bullet, version 3.05
+[2.631s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[2.984s] -- Found assimp: /usr/include (found version "5.2.0") 
+[3.247s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.730s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[3.869s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.889s] -- Looking for ignition-math6 -- found version 6.15.0
+[3.945s] -- Searching for dependencies of ignition-math6
+[3.969s] -- Looking for OGRE...
+[3.971s] -- OGRE_PREFIX_WATCH changed.
+[3.986s] -- Checking for module 'OGRE'
+[4.032s] --   Found OGRE, version 1.9.0
+[4.135s] -- Found Ogre Ghadamon (1.9.0)
+[4.159s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[4.177s] -- Looking for OGRE_Paging...
+[4.195s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[4.196s] -- Looking for OGRE_Terrain...
+[4.229s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[4.229s] -- Looking for OGRE_Property...
+[4.234s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[4.234s] -- Looking for OGRE_RTShaderSystem...
+[4.254s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[4.254s] -- Looking for OGRE_Volume...
+[4.271s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[4.272s] -- Looking for OGRE_Overlay...
+[4.288s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[4.592s] -- Looking for ignition-math6 -- found version 6.15.0
+[4.599s] -- Looking for ignition-transport8 -- found version 8.2.1
+[4.600s] -- Searching for dependencies of ignition-transport8
+[4.636s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[4.661s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[4.670s] -- Checking for module 'libzmq >= 4'
+[4.706s] --   Found libzmq , version 4.3.4
+[4.829s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[4.841s] -- Checking for module 'uuid'
+[4.891s] --   Found uuid, version 2.37.2
+[4.981s] -- Found UUID: TRUE  
+[4.990s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.991s] -- Searching for dependencies of ignition-msgs5
+[5.034s] -- Looking for ignition-math6 -- found version 6.15.0
+[5.045s] -- Checking for module 'tinyxml2'
+[5.080s] --   Found tinyxml2, version 9.0.0
+[5.178s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[5.186s] -- Looking for ignition-common3 -- found version 3.14.0
+[5.187s] -- Searching for dependencies of ignition-common3
+[5.187s] -- Looking for dlfcn.h - found
+[5.193s] -- Looking for libdl - found
+[5.193s] -- Found DL: TRUE  
+[5.218s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[5.221s] -- Searching for <ignition-common3> component [graphics]
+[5.241s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[5.253s] -- Searching for dependencies of ignition-common3-graphics
+[5.253s] -- Looking for ignition-math6 -- found version 6.15.0
+[5.256s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[5.258s] -- Searching for dependencies of ignition-fuel_tools4
+[5.518s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[5.596s] -- Checking for module 'jsoncpp'
+[5.671s] --   Found jsoncpp, version 1.9.5
+[5.899s] -- Found JSONCPP: TRUE  
+[5.959s] -- Checking for module 'libzip'
+[6.108s] --   Found libzip, version 1.7.3
+[6.266s] -- Found ZIP: TRUE  
+[6.267s] -- Looking for ignition-common3 -- found version 3.14.0
+[6.268s] -- Looking for ignition-math6 -- found version 6.15.0
+[6.270s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.304s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[6.308s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[6.416s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.427s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.480s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.544s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.647s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.061s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[7.516s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[7.669s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.676s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.989s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.054s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.163s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.183s] -- Found Threads: TRUE  
+[8.473s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.712s] -- Found tf2: 0.25.4 (/opt/ros/humble/share/tf2/cmake)
+[8.933s] -- Configuring done
+[9.168s] -- Generating done
+[9.176s] -- Build files have been written to: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/turtlebot3_gazebo

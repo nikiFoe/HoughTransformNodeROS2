@@ -1,0 +1,4 @@
+source;share/houghmessage/local_setup.bash
+source;share/houghmessage/local_setup.dsv
+source;share/houghmessage/local_setup.sh
+source;share/houghmessage/local_setup.zsh

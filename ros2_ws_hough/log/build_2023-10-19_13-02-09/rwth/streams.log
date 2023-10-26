@@ -1,0 +1,111 @@
+[0.089s] Invoking command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth -- -j8 -l8
+[0.183s] [35m[1mConsolidate compiler generated dependencies of target rwth_publish[0m
+[0.220s] [ 50%] [32mBuilding CXX object CMakeFiles/rwth_publish.dir/src/rwth.cpp.o[0m
+[0.532s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:145:127:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[0.532s]   145 |                                                         RCLCPP_INFO(rclcpp::get_logger("Threading"), "Exception: %s", e.what()[01;35m[K"[m[K);
+[0.532s]       |                                                                                                                               [01;35m[K^[m[K
+[0.533s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[0.533s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[0.533s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[0.533s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[0.533s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[0.533s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[0.533s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[0.534s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[0.534s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[0.534s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[0.534s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[0.534s]                  from [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:9[m[K:
+[0.534s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:145:127:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+[0.534s]   145 |                                                         RCLCPP_INFO(rclcpp::get_logger("Threading"), "Exception: %s", e.what()[01;31m[K");[m[K
+[0.535s]       |                                                                                                                               [01;31m[K^~~[m[K
+[2.932s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:[m[K In lambda function:
+[2.933s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:61:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.933s]    61 |                         for(int i = 0; [01;35m[Ki < ranges.size()[m[K; i++)
+[2.934s]       |                                        [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[2.934s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:74:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.934s]    74 |                         for (int i = 0; [01;35m[Ki < ranges.size()[m[K; ++i) {
+[2.935s]       |                                         [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[2.935s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:83:31:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KC[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.935s]    83 |                         float [01;35m[KC[m[K[Nr][NTh]={};
+[2.936s]       |                               [01;35m[K^[m[K
+[2.936s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:83:31:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KC[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[2.941s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.942s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.942s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.943s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.944s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.944s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.944s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.944s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.944s]                  from [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:9[m[K:
+[2.945s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:147:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+[2.945s]   147 |                                                 [01;31m[K}[m[K
+[2.945s]       |                                                 [01;31m[K^[m[K
+[2.945s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:145:57:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.946s]   145 |                                                         [01;36m[KRCLCPP_INFO[m[K(rclcpp::get_logger("Threading"), "Exception: %s", e.what()");
+[2.946s]       |                                                         [01;36m[K^~~~~~~~~~~[m[K
+[2.946s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:151:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[Kwhile[m[K’ before ‘[01m[K{[m[K’ token
+[2.946s]   151 |                                         [01;31m[K{[m[K
+[2.947s]       |                                         [01;31m[K^[m[K
+[2.947s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:151:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K{[m[K’ token
+[2.947s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:151:41:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K{[m[K’ token
+[2.948s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:151:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K{[m[K’ token
+[2.948s]   151 |                                         [01;31m[K{[m[K
+[2.948s]       |                                         [01;31m[K^[m[K
+[2.948s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:151:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[2.948s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:161:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[Kwhile[m[K’ before ‘[01m[KR[m[K’
+[2.949s]   161 |                                 [01;31m[KR[m[K.clear();
+[2.949s]       |                                 [01;31m[K^[m[K
+[2.949s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:161:33:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[KR[m[K’
+[2.949s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:161:40:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[KR.std::vector<float>::clear()[m[K’ from ‘[01m[Kvoid[m[K’ to ‘[01m[Kbool[m[K’
+[2.950s]   161 |                                 [01;31m[KR.clear()[m[K;
+[2.950s]       |                                 [01;31m[K~~~~~~~^~[m[K
+[2.950s]       |                                        [01;31m[K|[m[K
+[2.950s]       |                                        [01;31m[Kvoid[m[K
+[2.951s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:161:42:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[2.951s]   161 |                                 [32m[KR[m[K.clear()[01;31m[K;[m[K
+[2.951s]       |                                 [32m[K~[m[K        [01;31m[K^[m[K
+[2.951s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:145:57:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[2.952s]   145 |                                                         [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("Threading"), "Exception: %s", e.what()");
+[2.952s]       |                                                         [01;31m[K^~~~~~~~~~~[m[K
+[2.952s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:52:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_max[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.952s]    52 |                         float [01;35m[Kangle_max[m[K = msg->angle_max;
+[2.952s]       |                               [01;35m[K^~~~~~~~~[m[K
+[2.953s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:54:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krange_min[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.953s]    54 |                         float [01;35m[Krange_min[m[K = msg->range_min;
+[2.953s]       |                               [01;35m[K^~~~~~~~~[m[K
+[2.953s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:55:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krange_max[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.954s]    55 |                         float [01;35m[Krange_max[m[K = msg->range_max;
+[2.954s]       |                               [01;35m[K^~~~~~~~~[m[K
+[2.954s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:81:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNrOfMeas[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.954s]    81 |                         int [01;35m[KNrOfMeas[m[K=ranges.size();
+[2.955s]       |                             [01;35m[K^~~~~~~~[m[K
+[2.955s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:103:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.955s]   103 |                         float [01;35m[Ktres[m[K=0.1;
+[2.955s]       |                               [01;35m[K^~~~[m[K
+[2.956s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.956s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.956s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.956s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.957s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.957s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.957s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.957s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.957s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.958s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.958s]                  from [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:9[m[K:
+[2.958s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:[m[K In function ‘[01m[Kvoid receiveCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.958s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:145:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kwhile[m[K’
+[2.959s]   145 |                                                         [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("Threading"), "Exception: %s", e.what()");
+[2.959s]       |                                                         [01;31m[K^~~~~~~~~~~[m[K
+[2.959s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:41:43:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.959s]    41 |                 std::thread calculateHough[01;36m[K([m[K[msg](){
+[2.959s]       |                                           [01;36m[K^[m[K
+[6.535s] gmake[2]: *** [CMakeFiles/rwth_publish.dir/build.make:76: CMakeFiles/rwth_publish.dir/src/rwth.cpp.o] Error 1
+[6.535s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rwth_publish.dir/all] Error 2
+[6.536s] gmake: *** [Makefile:146: all] Error 2
+[6.540s] Invoked command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth -- -j8 -l8

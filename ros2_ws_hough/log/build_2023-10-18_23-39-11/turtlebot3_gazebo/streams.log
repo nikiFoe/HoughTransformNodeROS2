@@ -1,0 +1,119 @@
+[0.483s] Invoking command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/turtlebot3_gazebo -- -j8 -l8
+[0.773s] [ 12%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[0.784s] [ 25%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[0.794s] [ 37%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[0.839s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[52.231s] [ 62%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[53.718s] [ 75%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[53.896s] [ 87%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[54.027s] [ 87%] Built target obstacle2
+[54.207s] [100%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[54.984s] [100%] Built target obstacle1
+[55.204s] [100%] Built target obstacles
+[56.653s] [100%] Built target turtlebot3_drive
+[56.676s] Invoked command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/turtlebot3_gazebo -- -j8 -l8
+[57.789s] Invoking command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/turtlebot3_gazebo
+[57.815s] -- Install configuration: ""
+[57.816s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[57.833s] -- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive" to ""
+[57.837s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch
+[57.838s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[57.839s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[57.841s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[57.841s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[57.842s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[57.843s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[57.843s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py
+[57.844s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[57.844s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[57.845s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models
+[57.845s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle
+[57.846s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[57.847s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[57.847s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[57.848s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house
+[57.849s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[57.851s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[57.851s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger
+[57.852s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[57.853s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[57.855s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[57.857s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world
+[57.858s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[57.859s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1
+[57.860s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[57.861s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[57.862s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls
+[57.862s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[57.863s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[57.864s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[57.869s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin
+[57.873s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc
+[57.873s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc
+[57.873s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc
+[57.874s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt
+[57.874s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2
+[57.874s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[57.874s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[57.875s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles
+[57.876s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[57.876s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[57.877s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box
+[57.877s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[57.877s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[57.877s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world
+[57.878s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes
+[57.878s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[57.878s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[57.879s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[57.880s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[57.880s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[57.880s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi
+[57.882s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[57.882s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[57.883s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[57.883s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common
+[57.883s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes
+[57.883s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae
+[57.884s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[57.885s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae
+[57.885s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae
+[57.887s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae
+[57.889s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae
+[57.903s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config
+[57.903s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz
+[57.905s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[57.906s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf
+[57.906s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf
+[57.906s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf
+[57.906s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf
+[57.906s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf
+[57.907s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds
+[57.907s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world
+[57.912s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world
+[57.912s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world
+[57.917s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world
+[57.917s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world
+[57.917s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world
+[57.917s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world
+[57.919s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/include/
+[57.919s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/include//turtlebot3_gazebo
+[57.920s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[57.921s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[57.923s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[57.924s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[57.926s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[57.926s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[57.926s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[57.926s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[57.928s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[57.930s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[57.930s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[57.930s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[57.930s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[57.930s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[57.931s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[57.931s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[57.932s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[57.932s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[58.125s] Invoked command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/turtlebot3_gazebo

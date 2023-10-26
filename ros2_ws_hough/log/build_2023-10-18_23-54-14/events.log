@@ -1,0 +1,227 @@
+[0.000000] (-) TimerEvent: {}
+[0.000920] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.001197] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.001587] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.001645] (-) JobUnselected: {'identifier': 'houghmessage'}
+[0.001697] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.001829] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.001915] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.002045] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.002141] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.002278] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.002330] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.002379] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.002586] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.002725] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.002779] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.002829] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.003048] (rwth) JobQueued: {'identifier': 'rwth', 'dependencies': OrderedDict()}
+[0.003142] (rwth) JobStarted: {'identifier': 'rwth'}
+[0.099400] (-) TimerEvent: {}
+[0.113274] (rwth) JobProgress: {'identifier': 'rwth', 'progress': 'cmake'}
+[0.115512] (rwth) JobProgress: {'identifier': 'rwth', 'progress': 'build'}
+[0.117635] (rwth) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth', '--', '-j8', '-l8'], 'cwd': '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'niklas'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_msgs/lib:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/houghmessage/lib:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_custom_interfaces/lib:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/niklas'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '3323'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'niklas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'niklas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/niklas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/niklas-Lenovo-V155-15API:@/tmp/.ICE-unix/1827,unix/niklas-Lenovo-V155-15API:/tmp/.ICE-unix/1827'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/92957662_1e81_445c_a7a9_b4c08735fc87'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TY2NC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_simulations:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_bringup:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_node:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_navigation2:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_fake_node:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_msgs:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_description:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_cartographer:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/houghmessage:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_examples:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_custom_interfaces:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example/lib/python3.10/site-packages:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/houghmessage/local/lib/python3.10/dist-packages:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_simulations:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_bringup:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_node:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_navigation2:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_fake_node:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_msgs:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_description:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_cartographer:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/houghmessage:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_examples:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_custom_interfaces:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.199549] (-) TimerEvent: {}
+[0.203258] (rwth) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rwth_publish\x1b[0m\n'}
+[0.244335] (rwth) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rwth_publish.dir/src/rwth.cpp.o\x1b[0m\n'}
+[0.299685] (-) TimerEvent: {}
+[0.400247] (-) TimerEvent: {}
+[0.500737] (-) TimerEvent: {}
+[0.601207] (-) TimerEvent: {}
+[0.701595] (-) TimerEvent: {}
+[0.802048] (-) TimerEvent: {}
+[0.902695] (-) TimerEvent: {}
+[1.003198] (-) TimerEvent: {}
+[1.103674] (-) TimerEvent: {}
+[1.204393] (-) TimerEvent: {}
+[1.304997] (-) TimerEvent: {}
+[1.405550] (-) TimerEvent: {}
+[1.506031] (-) TimerEvent: {}
+[1.606619] (-) TimerEvent: {}
+[1.707395] (-) TimerEvent: {}
+[1.808157] (-) TimerEvent: {}
+[1.908657] (-) TimerEvent: {}
+[2.009259] (-) TimerEvent: {}
+[2.109732] (-) TimerEvent: {}
+[2.210220] (-) TimerEvent: {}
+[2.310735] (-) TimerEvent: {}
+[2.411172] (-) TimerEvent: {}
+[2.511722] (-) TimerEvent: {}
+[2.612262] (-) TimerEvent: {}
+[2.712807] (-) TimerEvent: {}
+[2.813392] (-) TimerEvent: {}
+[2.913884] (-) TimerEvent: {}
+[3.014420] (-) TimerEvent: {}
+[3.114908] (-) TimerEvent: {}
+[3.215392] (-) TimerEvent: {}
+[3.315943] (-) TimerEvent: {}
+[3.416604] (-) TimerEvent: {}
+[3.517051] (-) TimerEvent: {}
+[3.617514] (-) TimerEvent: {}
+[3.718046] (-) TimerEvent: {}
+[3.808086] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[3.808659] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:56:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.809175] (rwth) StderrLine: {'line': b'   56 |                         for(int i = 0; \x1b[01;35m\x1b[Ki < ranges.size()\x1b[m\x1b[K; i++)\n'}
+[3.809423] (rwth) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.809631] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:69:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.809817] (rwth) StderrLine: {'line': b'   69 |                                 for (int i = 0; \x1b[01;35m\x1b[Ki < ranges.size()\x1b[m\x1b[K; ++i) {\n'}
+[3.809957] (rwth) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.810095] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:78:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[KC\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla\x07-Wvla\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.810238] (rwth) StderrLine: {'line': b'   78 |                         float \x1b[01;35m\x1b[KC\x1b[m\x1b[K[Nr][NTh]={};\n'}
+[3.810379] (rwth) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.810613] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:78:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[KC\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla\x07-Wvla\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.811413] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:106:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.811685] (rwth) StderrLine: {'line': b'  106 |                         for (int k = 0; \x1b[01;35m\x1b[Kk < ranges.size()\x1b[m\x1b[K; k++)\n'}
+[3.811966] (rwth) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.812408] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:112:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.812604] (rwth) StderrLine: {'line': b'  112 |                         for (int j=1; \x1b[01;35m\x1b[Kj < R.size()\x1b[m\x1b[K; j++)\n'}
+[3.812740] (rwth) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.816478] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:47:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kangle_max\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.817104] (rwth) StderrLine: {'line': b'   47 |                         float \x1b[01;35m\x1b[Kangle_max\x1b[m\x1b[K = msg->angle_max;\n'}
+[3.817544] (rwth) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.817862] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:49:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Krange_min\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.818212] (-) TimerEvent: {}
+[3.818531] (rwth) StderrLine: {'line': b'   49 |                         float \x1b[01;35m\x1b[Krange_min\x1b[m\x1b[K = msg->range_min;\n'}
+[3.818843] (rwth) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.819156] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:50:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Krange_max\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.819407] (rwth) StderrLine: {'line': b'   50 |                         float \x1b[01;35m\x1b[Krange_max\x1b[m\x1b[K = msg->range_max;\n'}
+[3.819673] (rwth) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.819996] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:76:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[KNrOfMeas\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.820394] (rwth) StderrLine: {'line': b'   76 |                         int \x1b[01;35m\x1b[KNrOfMeas\x1b[m\x1b[K=ranges.size();\n'}
+[3.820733] (rwth) StderrLine: {'line': b'      |                             \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.821104] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:97:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ktres\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.821449] (rwth) StderrLine: {'line': b'   97 |                         float \x1b[01;35m\x1b[Ktres\x1b[m\x1b[K=0.1;\n'}
+[3.821763] (rwth) StderrLine: {'line': b'      |                               \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.918398] (-) TimerEvent: {}
+[4.019053] (-) TimerEvent: {}
+[4.119696] (-) TimerEvent: {}
+[4.220216] (-) TimerEvent: {}
+[4.320748] (-) TimerEvent: {}
+[4.421304] (-) TimerEvent: {}
+[4.521816] (-) TimerEvent: {}
+[4.622449] (-) TimerEvent: {}
+[4.722925] (-) TimerEvent: {}
+[4.823500] (-) TimerEvent: {}
+[4.924108] (-) TimerEvent: {}
+[5.024602] (-) TimerEvent: {}
+[5.125156] (-) TimerEvent: {}
+[5.225792] (-) TimerEvent: {}
+[5.326322] (-) TimerEvent: {}
+[5.426896] (-) TimerEvent: {}
+[5.527616] (-) TimerEvent: {}
+[5.628322] (-) TimerEvent: {}
+[5.728922] (-) TimerEvent: {}
+[5.829508] (-) TimerEvent: {}
+[5.930012] (-) TimerEvent: {}
+[6.030562] (-) TimerEvent: {}
+[6.131038] (-) TimerEvent: {}
+[6.231511] (-) TimerEvent: {}
+[6.331978] (-) TimerEvent: {}
+[6.432450] (-) TimerEvent: {}
+[6.532873] (-) TimerEvent: {}
+[6.633429] (-) TimerEvent: {}
+[6.733992] (-) TimerEvent: {}
+[6.834527] (-) TimerEvent: {}
+[6.935049] (-) TimerEvent: {}
+[7.035564] (-) TimerEvent: {}
+[7.136266] (-) TimerEvent: {}
+[7.236895] (-) TimerEvent: {}
+[7.337517] (-) TimerEvent: {}
+[7.438076] (-) TimerEvent: {}
+[7.538684] (-) TimerEvent: {}
+[7.639312] (-) TimerEvent: {}
+[7.739742] (-) TimerEvent: {}
+[7.840203] (-) TimerEvent: {}
+[7.940699] (-) TimerEvent: {}
+[8.041296] (-) TimerEvent: {}
+[8.141833] (-) TimerEvent: {}
+[8.242402] (-) TimerEvent: {}
+[8.342972] (-) TimerEvent: {}
+[8.443463] (-) TimerEvent: {}
+[8.543975] (-) TimerEvent: {}
+[8.644509] (-) TimerEvent: {}
+[8.745110] (-) TimerEvent: {}
+[8.845597] (-) TimerEvent: {}
+[8.946041] (-) TimerEvent: {}
+[9.046509] (-) TimerEvent: {}
+[9.146937] (-) TimerEvent: {}
+[9.247342] (-) TimerEvent: {}
+[9.347782] (-) TimerEvent: {}
+[9.448399] (-) TimerEvent: {}
+[9.548839] (-) TimerEvent: {}
+[9.649236] (-) TimerEvent: {}
+[9.749682] (-) TimerEvent: {}
+[9.850134] (-) TimerEvent: {}
+[9.950575] (-) TimerEvent: {}
+[10.051146] (-) TimerEvent: {}
+[10.151728] (-) TimerEvent: {}
+[10.252243] (-) TimerEvent: {}
+[10.352815] (-) TimerEvent: {}
+[10.453303] (-) TimerEvent: {}
+[10.553744] (-) TimerEvent: {}
+[10.654190] (-) TimerEvent: {}
+[10.754765] (-) TimerEvent: {}
+[10.855387] (-) TimerEvent: {}
+[10.955894] (-) TimerEvent: {}
+[11.056677] (-) TimerEvent: {}
+[11.157236] (-) TimerEvent: {}
+[11.257740] (-) TimerEvent: {}
+[11.358229] (-) TimerEvent: {}
+[11.458753] (-) TimerEvent: {}
+[11.559245] (-) TimerEvent: {}
+[11.659729] (-) TimerEvent: {}
+[11.760225] (-) TimerEvent: {}
+[11.860708] (-) TimerEvent: {}
+[11.961261] (-) TimerEvent: {}
+[12.061767] (-) TimerEvent: {}
+[12.162284] (-) TimerEvent: {}
+[12.262834] (-) TimerEvent: {}
+[12.363301] (-) TimerEvent: {}
+[12.463811] (-) TimerEvent: {}
+[12.564229] (-) TimerEvent: {}
+[12.664648] (-) TimerEvent: {}
+[12.765083] (-) TimerEvent: {}
+[12.865538] (-) TimerEvent: {}
+[12.966048] (-) TimerEvent: {}
+[13.066544] (-) TimerEvent: {}
+[13.166956] (-) TimerEvent: {}
+[13.267504] (-) TimerEvent: {}
+[13.315675] (rwth) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rwth_publish\x1b[0m\n'}
+[13.367629] (-) TimerEvent: {}
+[13.468178] (-) TimerEvent: {}
+[13.568798] (-) TimerEvent: {}
+[13.669351] (-) TimerEvent: {}
+[13.769900] (-) TimerEvent: {}
+[13.870388] (-) TimerEvent: {}
+[13.970835] (-) TimerEvent: {}
+[14.071715] (-) TimerEvent: {}
+[14.173056] (-) TimerEvent: {}
+[14.195719] (rwth) StdoutLine: {'line': b'[100%] Built target rwth_publish\n'}
+[14.218837] (rwth) CommandEnded: {'returncode': 0}
+[14.273192] (-) TimerEvent: {}
+[14.289697] (rwth) JobProgress: {'identifier': 'rwth', 'progress': 'install'}
+[14.311360] (rwth) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth'], 'cwd': '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'niklas'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_msgs/lib:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/houghmessage/lib:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_custom_interfaces/lib:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/niklas'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '3323'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'niklas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'niklas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/niklas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/niklas-Lenovo-V155-15API:@/tmp/.ICE-unix/1827,unix/niklas-Lenovo-V155-15API:/tmp/.ICE-unix/1827'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/92957662_1e81_445c_a7a9_b4c08735fc87'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TY2NC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_simulations:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_bringup:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_node:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_navigation2:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_fake_node:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_msgs:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_description:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_cartographer:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/houghmessage:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_examples:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_custom_interfaces:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example/lib/python3.10/site-packages:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/houghmessage/local/lib/python3.10/dist-packages:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_simulations:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_bringup:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_node:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_navigation2:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_fake_node:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_msgs:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_description:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_cartographer:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/houghmessage:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_examples:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_custom_interfaces:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[14.325798] (rwth) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.326279] (rwth) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/lib/rwth/rwth_publish\n'}
+[14.337518] (rwth) StdoutLine: {'line': b'-- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/lib/rwth/rwth_publish" to ""\n'}
+[14.337897] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/ament_index/resource_index/package_run_dependencies/rwth\n'}
+[14.338064] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/ament_index/resource_index/parent_prefix_path/rwth\n'}
+[14.338208] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/environment/ament_prefix_path.sh\n'}
+[14.338367] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/environment/ament_prefix_path.dsv\n'}
+[14.338504] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/environment/path.sh\n'}
+[14.338809] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/environment/path.dsv\n'}
+[14.338976] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/local_setup.bash\n'}
+[14.339143] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/local_setup.sh\n'}
+[14.339270] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/local_setup.zsh\n'}
+[14.339396] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/local_setup.dsv\n'}
+[14.339517] (rwth) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/package.dsv\n'}
+[14.339643] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/ament_index/resource_index/packages/rwth\n'}
+[14.339766] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/cmake/rwthConfig.cmake\n'}
+[14.339891] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/cmake/rwthConfig-version.cmake\n'}
+[14.340016] (rwth) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth/share/rwth/package.xml\n'}
+[14.342863] (rwth) CommandEnded: {'returncode': 0}
+[14.373328] (-) TimerEvent: {}
+[14.473820] (-) TimerEvent: {}
+[14.574246] (-) TimerEvent: {}
+[14.623995] (rwth) JobEnded: {'identifier': 'rwth', 'rc': 0}
+[14.625281] (-) EventReactorShutdown: {}

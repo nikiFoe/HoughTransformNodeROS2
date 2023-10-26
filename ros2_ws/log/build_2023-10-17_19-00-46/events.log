@@ -1,0 +1,336 @@
+[0.000000] (-) TimerEvent: {}
+[0.000998] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.001231] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.001593] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.001662] (-) JobUnselected: {'identifier': 'rwth'}
+[0.001924] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.002056] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.002121] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.002183] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.002308] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.002431] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.002576] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.002744] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.002808] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.002932] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.002991] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.003108] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.003273] (houghmessage) JobQueued: {'identifier': 'houghmessage', 'dependencies': OrderedDict()}
+[0.003341] (houghmessage) JobStarted: {'identifier': 'houghmessage'}
+[0.073639] (houghmessage) JobProgress: {'identifier': 'houghmessage', 'progress': 'cmake'}
+[0.074104] (houghmessage) Command: {'cmd': ['/usr/bin/cmake', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/src/houghMessage', '-DCMAKE_INSTALL_PREFIX=/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage'], 'cwd': '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/houghmessage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'niklas'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/niklas'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1800'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=65aa1ab56970f758306fbc8f652ebd55'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'niklas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'niklas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/niklas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/niklas-Lenovo-V155-15API:@/tmp/.ICE-unix/1800,unix/niklas-Lenovo-V155-15API:/tmp/.ICE-unix/1800'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f08996d2_da2e_4964_a025_680bec43b88b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3D9GC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/houghmessage'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=65aa1ab56970f758306fbc8f652ebd55'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099708] (-) TimerEvent: {}
+[0.200154] (-) TimerEvent: {}
+[0.300643] (-) TimerEvent: {}
+[0.401356] (-) TimerEvent: {}
+[0.502053] (-) TimerEvent: {}
+[0.602583] (-) TimerEvent: {}
+[0.703112] (-) TimerEvent: {}
+[0.803636] (-) TimerEvent: {}
+[0.904204] (-) TimerEvent: {}
+[1.004715] (-) TimerEvent: {}
+[1.105136] (-) TimerEvent: {}
+[1.162144] (houghmessage) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.205315] (-) TimerEvent: {}
+[1.305819] (-) TimerEvent: {}
+[1.395141] (houghmessage) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.405969] (-) TimerEvent: {}
+[1.446508] (houghmessage) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.506140] (-) TimerEvent: {}
+[1.606627] (-) TimerEvent: {}
+[1.632905] (houghmessage) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.645552] (houghmessage) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.646283] (houghmessage) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.648165] (houghmessage) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.659239] (houghmessage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.706778] (-) TimerEvent: {}
+[1.807167] (-) TimerEvent: {}
+[1.820681] (houghmessage) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.838263] (houghmessage) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.838629] (houghmessage) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.839177] (houghmessage) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.846610] (houghmessage) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.907326] (-) TimerEvent: {}
+[2.007790] (-) TimerEvent: {}
+[2.108225] (-) TimerEvent: {}
+[2.119007] (houghmessage) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.208407] (-) TimerEvent: {}
+[2.295284] (houghmessage) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.308525] (-) TimerEvent: {}
+[2.408953] (-) TimerEvent: {}
+[2.429562] (houghmessage) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[2.490047] (houghmessage) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.498320] (houghmessage) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.509061] (-) TimerEvent: {}
+[2.512079] (houghmessage) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.534380] (houghmessage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.565946] (houghmessage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.609188] (-) TimerEvent: {}
+[2.643999] (houghmessage) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.709394] (-) TimerEvent: {}
+[2.809930] (-) TimerEvent: {}
+[2.910295] (-) TimerEvent: {}
+[2.941534] (houghmessage) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.8 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[2.947638] (houghmessage) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.010439] (-) TimerEvent: {}
+[3.110945] (-) TimerEvent: {}
+[3.211527] (-) TimerEvent: {}
+[3.312027] (-) TimerEvent: {}
+[3.412525] (-) TimerEvent: {}
+[3.513023] (-) TimerEvent: {}
+[3.613598] (-) TimerEvent: {}
+[3.658945] (houghmessage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.713719] (-) TimerEvent: {}
+[3.814093] (-) TimerEvent: {}
+[3.883756] (houghmessage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.914256] (-) TimerEvent: {}
+[3.924312] (houghmessage) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.927341] (houghmessage) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.989265] (houghmessage) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.989668] (houghmessage) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.989869] (houghmessage) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.990056] (houghmessage) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.014375] (-) TimerEvent: {}
+[4.048532] (houghmessage) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.114586] (-) TimerEvent: {}
+[4.176958] (houghmessage) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.179042] (houghmessage) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.189783] (houghmessage) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.214756] (-) TimerEvent: {}
+[4.247331] (houghmessage) StdoutLine: {'line': b'-- Generating done\n'}
+[4.251607] (houghmessage) StdoutLine: {'line': b'-- Build files have been written to: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/houghmessage\n'}
+[4.267053] (houghmessage) CommandEnded: {'returncode': 0}
+[4.268373] (houghmessage) JobProgress: {'identifier': 'houghmessage', 'progress': 'build'}
+[4.270750] (houghmessage) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/houghmessage', '--', '-j8', '-l8'], 'cwd': '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/houghmessage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'niklas'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/niklas'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1800'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=65aa1ab56970f758306fbc8f652ebd55'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'niklas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'niklas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/niklas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/niklas-Lenovo-V155-15API:@/tmp/.ICE-unix/1800,unix/niklas-Lenovo-V155-15API:/tmp/.ICE-unix/1800'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f08996d2_da2e_4964_a025_680bec43b88b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3D9GC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/houghmessage'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=65aa1ab56970f758306fbc8f652ebd55'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.314902] (-) TimerEvent: {}
+[4.355873] (houghmessage) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.372577] (houghmessage) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.386991] (houghmessage) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_houghmessage\n'}
+[4.415049] (-) TimerEvent: {}
+[4.515484] (-) TimerEvent: {}
+[4.615903] (-) TimerEvent: {}
+[4.716367] (-) TimerEvent: {}
+[4.761779] (houghmessage) StdoutLine: {'line': b'running egg_info\n'}
+[4.762893] (houghmessage) StdoutLine: {'line': b'creating houghmessage.egg-info\n'}
+[4.763277] (houghmessage) StdoutLine: {'line': b'writing houghmessage.egg-info/PKG-INFO\n'}
+[4.763625] (houghmessage) StdoutLine: {'line': b'writing dependency_links to houghmessage.egg-info/dependency_links.txt\n'}
+[4.763964] (houghmessage) StdoutLine: {'line': b'writing top-level names to houghmessage.egg-info/top_level.txt\n'}
+[4.764339] (houghmessage) StdoutLine: {'line': b"writing manifest file 'houghmessage.egg-info/SOURCES.txt'\n"}
+[4.769720] (houghmessage) StdoutLine: {'line': b"reading manifest file 'houghmessage.egg-info/SOURCES.txt'\n"}
+[4.770716] (houghmessage) StdoutLine: {'line': b"writing manifest file 'houghmessage.egg-info/SOURCES.txt'\n"}
+[4.816544] (-) TimerEvent: {}
+[4.839767] (houghmessage) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_houghmessage_egg\n'}
+[4.855562] (houghmessage) StdoutLine: {'line': b'[  6%] Built target houghmessage__cpp\n'}
+[4.874683] (houghmessage) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.875065] (houghmessage) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.875217] (houghmessage) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.897147] (houghmessage) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/houghmessage__rosidl_generator_c.dir/rosidl_generator_c/houghmessage/msg/detail/r_whough_line__functions.c.o\x1b[0m\n'}
+[4.916686] (-) TimerEvent: {}
+[5.017087] (-) TimerEvent: {}
+[5.117471] (-) TimerEvent: {}
+[5.146154] (houghmessage) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libhoughmessage__rosidl_generator_c.so\x1b[0m\n'}
+[5.217615] (-) TimerEvent: {}
+[5.228082] (houghmessage) StdoutLine: {'line': b'[ 22%] Built target houghmessage__rosidl_generator_c\n'}
+[5.251040] (houghmessage) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.252179] (houghmessage) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.255090] (houghmessage) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.317761] (-) TimerEvent: {}
+[5.418217] (-) TimerEvent: {}
+[5.500316] (houghmessage) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/houghmessage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/houghmessage/msg/r_whough_line__type_support.cpp.o\x1b[0m\n'}
+[5.518347] (-) TimerEvent: {}
+[5.523443] (houghmessage) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/houghmessage__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/houghmessage/msg/detail/r_whough_line__type_support.cpp.o\x1b[0m\n'}
+[5.527361] (houghmessage) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/houghmessage__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/houghmessage/msg/detail/dds_fastrtps/r_whough_line__type_support.cpp.o\x1b[0m\n'}
+[5.618485] (-) TimerEvent: {}
+[5.712681] (houghmessage) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/houghmessage__rosidl_typesupport_c.dir/rosidl_typesupport_c/houghmessage/msg/r_whough_line__type_support.cpp.o\x1b[0m\n'}
+[5.720103] (-) TimerEvent: {}
+[5.788949] (houghmessage) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/houghmessage__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/houghmessage/msg/detail/r_whough_line__type_support_c.cpp.o\x1b[0m\n'}
+[5.789696] (houghmessage) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libhoughmessage__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.818836] (houghmessage) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/houghmessage__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/houghmessage/msg/detail/r_whough_line__type_support.c.o\x1b[0m\n'}
+[5.820207] (-) TimerEvent: {}
+[5.871488] (houghmessage) StdoutLine: {'line': b'[ 54%] Built target houghmessage__rosidl_typesupport_c\n'}
+[5.920330] (-) TimerEvent: {}
+[5.969698] (houghmessage) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libhoughmessage__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.020515] (-) TimerEvent: {}
+[6.045650] (houghmessage) StdoutLine: {'line': b'[ 58%] Built target houghmessage__rosidl_typesupport_introspection_c\n'}
+[6.120681] (-) TimerEvent: {}
+[6.140854] (houghmessage) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libhoughmessage__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.220861] (-) TimerEvent: {}
+[6.224795] (houghmessage) StdoutLine: {'line': b'[ 61%] Built target houghmessage__rosidl_typesupport_cpp\n'}
+[6.321033] (-) TimerEvent: {}
+[6.358063] (houghmessage) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libhoughmessage__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.401958] (houghmessage) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libhoughmessage__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.421246] (-) TimerEvent: {}
+[6.422240] (houghmessage) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libhoughmessage__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.521407] (-) TimerEvent: {}
+[6.541020] (houghmessage) StdoutLine: {'line': b'[ 70%] Built target houghmessage__rosidl_typesupport_introspection_cpp\n'}
+[6.586238] (houghmessage) StdoutLine: {'line': b'[ 70%] Built target houghmessage__rosidl_typesupport_fastrtps_c\n'}
+[6.590455] (houghmessage) StdoutLine: {'line': b'[ 70%] Built target houghmessage__rosidl_typesupport_fastrtps_cpp\n'}
+[6.621549] (-) TimerEvent: {}
+[6.622330] (houghmessage) StdoutLine: {'line': b'[ 70%] Built target houghmessage\n'}
+[6.658702] (houghmessage) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.721695] (-) TimerEvent: {}
+[6.822072] (-) TimerEvent: {}
+[6.922426] (-) TimerEvent: {}
+[7.022855] (-) TimerEvent: {}
+[7.047364] (houghmessage) StdoutLine: {'line': b'[ 74%] Built target houghmessage__py\n'}
+[7.081612] (houghmessage) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/houghmessage__rosidl_generator_py.dir/rosidl_generator_py/houghmessage/msg/_r_whough_line_s.c.o\x1b[0m\n'}
+[7.123006] (-) TimerEvent: {}
+[7.223440] (-) TimerEvent: {}
+[7.315118] (houghmessage) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/houghmessage/libhoughmessage__rosidl_generator_py.so\x1b[0m\n'}
+[7.323567] (-) TimerEvent: {}
+[7.415780] (houghmessage) StdoutLine: {'line': b'[ 80%] Built target houghmessage__rosidl_generator_py\n'}
+[7.423719] (-) TimerEvent: {}
+[7.445762] (houghmessage) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/houghmessage__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/houghmessage/_houghmessage_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.447993] (houghmessage) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/houghmessage__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/houghmessage/_houghmessage_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.463434] (houghmessage) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/houghmessage__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/houghmessage/_houghmessage_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.523874] (-) TimerEvent: {}
+[7.598772] (houghmessage) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/houghmessage/houghmessage_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.618588] (houghmessage) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/houghmessage/houghmessage_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.624026] (-) TimerEvent: {}
+[7.624937] (houghmessage) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/houghmessage/houghmessage_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.664442] (houghmessage) StdoutLine: {'line': b'[100%] Built target houghmessage__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.688653] (houghmessage) StdoutLine: {'line': b'[100%] Built target houghmessage__rosidl_typesupport_c__pyext\n'}
+[7.702476] (houghmessage) StdoutLine: {'line': b'[100%] Built target houghmessage__rosidl_typesupport_introspection_c__pyext\n'}
+[7.723721] (houghmessage) CommandEnded: {'returncode': 0}
+[7.724382] (-) TimerEvent: {}
+[7.824695] (-) TimerEvent: {}
+[7.840811] (houghmessage) JobProgress: {'identifier': 'houghmessage', 'progress': 'install'}
+[7.856112] (houghmessage) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/houghmessage'], 'cwd': '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/houghmessage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'niklas'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/niklas'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1800'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=65aa1ab56970f758306fbc8f652ebd55'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'niklas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'niklas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/niklas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/niklas-Lenovo-V155-15API:@/tmp/.ICE-unix/1800,unix/niklas-Lenovo-V155-15API:/tmp/.ICE-unix/1800'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f08996d2_da2e_4964_a025_680bec43b88b'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3D9GC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.97'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/houghmessage'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=65aa1ab56970f758306fbc8f652ebd55'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.871432] (houghmessage) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.871809] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/ament_index/resource_index/rosidl_interfaces/houghmessage\n'}
+[7.872068] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage\n'}
+[7.872288] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg\n'}
+[7.872495] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.872765] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/r_whough_line.h\n'}
+[7.872975] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/detail\n'}
+[7.873182] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/detail/r_whough_line__struct.h\n'}
+[7.873408] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/detail/r_whough_line__functions.h\n'}
+[7.873588] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/detail/r_whough_line__functions.c\n'}
+[7.873736] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/detail/r_whough_line__type_support.h\n'}
+[7.873907] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/environment/library_path.sh\n'}
+[7.874091] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/environment/library_path.dsv\n'}
+[7.874315] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/lib/libhoughmessage__rosidl_generator_c.so\n'}
+[7.874810] (houghmessage) StdoutLine: {'line': b'-- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/lib/libhoughmessage__rosidl_generator_c.so" to ""\n'}
+[7.875010] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage\n'}
+[7.875148] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg\n'}
+[7.875365] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.875513] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/detail\n'}
+[7.875673] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/detail/r_whough_line__rosidl_typesupport_fastrtps_c.h\n'}
+[7.875801] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/lib/libhoughmessage__rosidl_typesupport_fastrtps_c.so\n'}
+[7.876083] (houghmessage) StdoutLine: {'line': b'-- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/lib/libhoughmessage__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.876304] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage\n'}
+[7.876459] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg\n'}
+[7.876642] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/r_whough_line.hpp\n'}
+[7.876794] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/detail\n'}
+[7.877010] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/detail/r_whough_line__traits.hpp\n'}
+[7.877160] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/detail/r_whough_line__builder.hpp\n'}
+[7.877435] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/detail/r_whough_line__struct.hpp\n'}
+[7.877650] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage\n'}
+[7.877841] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg\n'}
+[7.877988] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.878157] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/detail\n'}
+[7.878304] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/detail/dds_fastrtps\n'}
+[7.878484] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/detail/r_whough_line__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.878631] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/lib/libhoughmessage__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.878835] (houghmessage) StdoutLine: {'line': b'-- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/lib/libhoughmessage__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.879059] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage\n'}
+[7.879211] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg\n'}
+[7.879410] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.879567] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/detail\n'}
+[7.879696] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/detail/r_whough_line__rosidl_typesupport_introspection_c.h\n'}
+[7.879827] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/detail/r_whough_line__type_support.c\n'}
+[7.880009] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/lib/libhoughmessage__rosidl_typesupport_introspection_c.so\n'}
+[7.880268] (houghmessage) StdoutLine: {'line': b'-- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/lib/libhoughmessage__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.880431] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/lib/libhoughmessage__rosidl_typesupport_c.so\n'}
+[7.880791] (houghmessage) StdoutLine: {'line': b'-- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/lib/libhoughmessage__rosidl_typesupport_c.so" to ""\n'}
+[7.880992] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage\n'}
+[7.881127] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg\n'}
+[7.881259] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/detail\n'}
+[7.881454] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/detail/r_whough_line__type_support.cpp\n'}
+[7.881586] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/include/houghmessage/houghmessage/msg/detail/r_whough_line__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.881738] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/lib/libhoughmessage__rosidl_typesupport_introspection_cpp.so\n'}
+[7.882137] (houghmessage) StdoutLine: {'line': b'-- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/lib/libhoughmessage__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.882294] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/lib/libhoughmessage__rosidl_typesupport_cpp.so\n'}
+[7.882711] (houghmessage) StdoutLine: {'line': b'-- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/lib/libhoughmessage__rosidl_typesupport_cpp.so" to ""\n'}
+[7.882875] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/environment/pythonpath.sh\n'}
+[7.883048] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/environment/pythonpath.dsv\n'}
+[7.883237] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage-0.0.0-py3.10.egg-info\n'}
+[7.883503] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.883696] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.883907] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.884290] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.884530] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage\n'}
+[7.884712] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/_houghmessage_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.884894] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/_houghmessage_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.885087] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/houghmessage_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.885335] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/_houghmessage_s.ep.rosidl_typesupport_c.c\n'}
+[7.885543] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/__init__.py\n'}
+[7.885736] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/houghmessage_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.885934] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/msg\n'}
+[7.886136] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/msg/__init__.py\n'}
+[7.886316] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/msg/_r_whough_line.py\n'}
+[7.886495] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/msg/_r_whough_line_s.c\n'}
+[7.886708] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/libhoughmessage__rosidl_generator_py.so\n'}
+[7.886962] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/houghmessage_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.924803] (-) TimerEvent: {}
+[7.928074] (houghmessage) StdoutLine: {'line': b"Listing '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage'...\n"}
+[7.928364] (houghmessage) StdoutLine: {'line': b"Compiling '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/__init__.py'...\n"}
+[7.928528] (houghmessage) StdoutLine: {'line': b"Listing '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/msg'...\n"}
+[7.928735] (houghmessage) StdoutLine: {'line': b"Compiling '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/msg/__init__.py'...\n"}
+[7.928928] (houghmessage) StdoutLine: {'line': b"Compiling '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/msg/_r_whough_line.py'...\n"}
+[7.934885] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/houghmessage_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.935870] (houghmessage) StdoutLine: {'line': b'-- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/houghmessage_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.936483] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/houghmessage_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.937648] (houghmessage) StdoutLine: {'line': b'-- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/houghmessage_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.938335] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/houghmessage_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.939439] (houghmessage) StdoutLine: {'line': b'-- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/local/lib/python3.10/dist-packages/houghmessage/houghmessage_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.939874] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/lib/libhoughmessage__rosidl_generator_py.so\n'}
+[7.940979] (houghmessage) StdoutLine: {'line': b'-- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/lib/libhoughmessage__rosidl_generator_py.so" to ""\n'}
+[7.941462] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/msg/RWhoughLine.idl\n'}
+[7.941907] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/msg/RWhoughLine.msg\n'}
+[7.942702] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/ament_index/resource_index/package_run_dependencies/houghmessage\n'}
+[7.943250] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/ament_index/resource_index/parent_prefix_path/houghmessage\n'}
+[7.943779] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/environment/ament_prefix_path.sh\n'}
+[7.944247] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/environment/ament_prefix_path.dsv\n'}
+[7.944735] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/environment/path.sh\n'}
+[7.945194] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/environment/path.dsv\n'}
+[7.945707] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/local_setup.bash\n'}
+[7.946186] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/local_setup.sh\n'}
+[7.946680] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/local_setup.zsh\n'}
+[7.947186] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/local_setup.dsv\n'}
+[7.947656] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/package.dsv\n'}
+[7.948330] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/ament_index/resource_index/packages/houghmessage\n'}
+[7.948916] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/export_houghmessage__rosidl_generator_cExport.cmake\n'}
+[7.949395] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/export_houghmessage__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.949841] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/export_houghmessage__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.950300] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/export_houghmessage__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.950764] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/export_houghmessage__rosidl_generator_cppExport.cmake\n'}
+[7.951229] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/export_houghmessage__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.951836] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/export_houghmessage__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.952396] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/houghmessage__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.952888] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/houghmessage__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.953608] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/houghmessage__rosidl_typesupport_cExport.cmake\n'}
+[7.954144] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/houghmessage__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.954687] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/houghmessage__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.955225] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/houghmessage__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.955826] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/houghmessage__rosidl_typesupport_cppExport.cmake\n'}
+[7.956243] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/houghmessage__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.956743] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/export_houghmessage__rosidl_generator_pyExport.cmake\n'}
+[7.957412] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/export_houghmessage__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.958038] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/rosidl_cmake-extras.cmake\n'}
+[7.958471] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.958804] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.959175] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.959631] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.960099] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.960541] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.961029] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/houghmessageConfig.cmake\n'}
+[7.961480] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/cmake/houghmessageConfig-version.cmake\n'}
+[7.961913] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/houghmessage/share/houghmessage/package.xml\n'}
+[7.969263] (houghmessage) CommandEnded: {'returncode': 0}
+[8.024993] (-) TimerEvent: {}
+[8.125576] (-) TimerEvent: {}
+[8.226118] (-) TimerEvent: {}
+[8.326625] (-) TimerEvent: {}
+[8.398884] (houghmessage) JobEnded: {'identifier': 'houghmessage', 'rc': 0}
+[8.399629] (-) EventReactorShutdown: {}

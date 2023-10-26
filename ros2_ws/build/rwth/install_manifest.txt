@@ -1,0 +1,16 @@
+/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/rwth/lib/rwth/rwth_publish
+/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/rwth/share/ament_index/resource_index/package_run_dependencies/rwth
+/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/rwth/share/ament_index/resource_index/parent_prefix_path/rwth
+/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/rwth/share/rwth/environment/ament_prefix_path.sh
+/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/rwth/share/rwth/environment/ament_prefix_path.dsv
+/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/rwth/share/rwth/environment/path.sh
+/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/rwth/share/rwth/environment/path.dsv
+/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/rwth/share/rwth/local_setup.bash
+/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/rwth/share/rwth/local_setup.sh
+/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/rwth/share/rwth/local_setup.zsh
+/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/rwth/share/rwth/local_setup.dsv
+/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/rwth/share/rwth/package.dsv
+/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/rwth/share/ament_index/resource_index/packages/rwth
+/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/rwth/share/rwth/cmake/rwthConfig.cmake
+/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/rwth/share/rwth/cmake/rwthConfig-version.cmake
+/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/rwth/share/rwth/package.xml

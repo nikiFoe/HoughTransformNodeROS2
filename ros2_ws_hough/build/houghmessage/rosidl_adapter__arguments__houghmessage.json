@@ -1,0 +1,6 @@
+{
+  "package_name": "houghmessage",
+  "non_idl_tuples": [
+    "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/houghmessage:msg/RWhoughLine.msg"
+  ]
+}

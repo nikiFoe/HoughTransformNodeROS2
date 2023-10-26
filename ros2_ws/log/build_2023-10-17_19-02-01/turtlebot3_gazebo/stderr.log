@@ -1,0 +1,10 @@
+gmake[2]: *** Deleting file 'CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o'
+gmake[2]: *** Deleting file 'libobstacles.so'
+gmake[2]: *** Deleting file 'libobstacle1.so'
+gmake[2]: *** [CMakeFiles/obstacle1.dir/build.make:148: libobstacle1.so] Interrupt
+gmake[2]: *** [CMakeFiles/obstacles.dir/build.make:148: libobstacles.so] Interrupt
+gmake[2]: *** [CMakeFiles/obstacle2.dir/build.make:76: CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/obstacle1.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/obstacles.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/obstacle2.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

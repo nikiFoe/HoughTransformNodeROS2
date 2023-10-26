@@ -1,0 +1,4 @@
+gmake[2]: *** Deleting file 'read_write_node'
+gmake[2]: *** [CMakeFiles/read_write_node.dir/build.make:160: read_write_node] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/read_write_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

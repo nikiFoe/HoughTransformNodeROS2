@@ -1,0 +1,4 @@
+source;share/rwth/local_setup.bash
+source;share/rwth/local_setup.dsv
+source;share/rwth/local_setup.sh
+source;share/rwth/local_setup.zsh

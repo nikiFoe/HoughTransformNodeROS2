@@ -1,0 +1,356 @@
+[0.000000] (-) TimerEvent: {}
+[0.000843] (houghmessage) JobQueued: {'identifier': 'houghmessage', 'dependencies': OrderedDict()}
+[0.001457] (houghmessage) JobStarted: {'identifier': 'houghmessage'}
+[0.055578] (houghmessage) JobProgress: {'identifier': 'houghmessage', 'progress': 'cmake'}
+[0.057600] (houghmessage) JobProgress: {'identifier': 'houghmessage', 'progress': 'build'}
+[0.057709] (houghmessage) Command: {'cmd': ['/home/niklas/MatlabInstall/bin/glnxa64/cmake/bin/cmake', '--build', '/home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/build/houghmessage', '--', '-j8', '-l8'], 'cwd': '/home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/build/houghmessage', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('ARCH', 'glnxa64'), ('CUSTOM_LD_LIBRARY_PATH', ''), ('USER', 'niklas'), ('LOCAL_PYTHON_VENV_PATH', '/home/niklas/.matlab/R2023b/ros2/glnxa64/venv'), ('MEMKIND_HEAP_MANAGER', 'TBB'), ('CUSTOM_AMENT_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install:/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('KMP_HANDLE_SIGNALS', '0'), ('SHLVL', '1'), ('ICU_TIMEZONE_FILES_DIR', '/home/niklas/MatlabInstall/bin/icutzdata'), ('LD_LIBRARY_PATH', ':/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/lib:/home/niklas/MatlabInstall/sys/os/glnxa64:/home/niklas/MatlabInstall/bin/glnxa64:/home/niklas/.MathWorks/hI-hW4-1jBBiwHATctu_by6NbE_ktAtZ-IgcxHOTZjs/bin/glnxa64:/home/niklas/MatlabInstall/extern/lib/glnxa64:/home/niklas/MatlabInstall/cefclient/sys/os/glnxa64:/home/niklas/MatlabInstall/runtime/glnxa64:/home/niklas/MatlabInstall/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/home/niklas/MatlabInstall/sys/java/jre/glnxa64/jre/lib/amd64/server'), ('BASEMATLABPATH', ''), ('HOME', '/home/niklas'), ('AUTOMOUNT_MAP', ''), ('OLDPWD', '/home/niklas/MatlabInstall'), ('DESKTOP_SESSION', 'ubuntu'), ('MW_LD_SHIM', '/home/niklas/MatlabInstall/bin/glnxa64/ld_shim.so.2.35.ubuntu_22_04'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/matlab.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', ''), ('PS1', '(venv)'), ('LIBVA_MESSAGING_LEVEL', '0'), ('MANAGERPID', '1669'), ('SYSTEMD_EXEC_PID', '1850'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5470'), ('CUSTOM_SITE_PACKAGES_PATH', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install:/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2:/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'niklas'), ('JOURNAL_STREAM', '8:28522'), ('_', '/home/niklas/.matlab/R2023b/ros2/glnxa64/venv/bin/colcon'), ('PKG_CONFIG_PATH', '/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'niklas'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/niklas/MatlabInstall/bin/glnxa64/cmake/bin::/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/bin:/home/niklas/.matlab/R2023b/ros2/glnxa64/venv/bin:/home/niklas/.matlab/R2023b/ros2/glnxa64/venv/bin:/home/niklas/MatlabInstall/toolbox/shared/coder/ninja/glnxa64:/home/niklas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/niklas-Lenovo-V155-15API:@/tmp/.ICE-unix/1827,unix/niklas-Lenovo-V155-15API:/tmp/.ICE-unix/1827'), ('INVOCATION_ID', '22afe0b8969e4a86afb34ff2d199c9cb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('TOOLBOX', '/home/niklas/MatlabInstall/toolbox'), ('MKL_DOMAIN_NUM_THREADS', ''), ('KMP_INIT_AT_FORK', 'false'), ('DISPLAY', ':0'), ('LD_PRELOAD', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PRE_LD_PRELOAD', ''), ('VIRTUAL_ENV_PROMPT', '(venv)'), ('RMW_IMPLEMENTATION', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TY2NC2'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install:/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2:/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2'), ('SHELL', '/bin/bash'), ('CMAKE_PATH', '/home/niklas/MatlabInstall/bin/glnxa64/cmake/bin'), ('XFILESEARCHPATH', '/home/niklas/MatlabInstall/sys/java/jre/glnxa64/jre/lib/locale/%L/%T/%N%S:'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('OSG_LD_LIBRARY_PATH', '/home/niklas/MatlabInstall/sys/openscenegraph/lib/glnxa64'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VIRTUAL_ENV', '/home/niklas/.matlab/R2023b/ros2/glnxa64/venv'), ('CUSTOM_PATH', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/build/houghmessage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DYLD_LIBRARY_PATH', ':/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MKL_NUM_THREADS', ''), ('MW_PATCH_OFFSETS', '0000117000002EA0'), ('PYTHONPATH', ':/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/lib/python3.9/site-packages:/home/niklas/.matlab/R2023b/ros2/glnxa64/venv/lib/python3.10/site-packages:'), ('LC_NUMERIC', 'C'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install:/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2:/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2')]), 'shell': False}
+[0.074819] (houghmessage) StdoutLine: {'line': b'[0/1] Re-running CMake...\n'}
+[0.099092] (houghmessage) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/share/ament_cmake/cmake)\n'}
+[0.099492] (-) TimerEvent: {}
+[0.199914] (-) TimerEvent: {}
+[0.275132] (houghmessage) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/share/ament_cmake_ros/cmake)\n'}
+[0.279967] (houghmessage) StdoutLine: {'line': b'-- Found rosidl_typesupport_c: 2.0.0 (/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_c/cmake)\n'}
+[0.280848] (houghmessage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.287605] (houghmessage) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/share/rosidl_adapter/cmake)\n'}
+[0.300055] (-) TimerEvent: {}
+[0.356043] (houghmessage) StdoutLine: {'line': b'-- Found rosidl_typesupport_cpp: 2.0.0 (/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/share/rosidl_typesupport_cpp/cmake)\n'}
+[0.356859] (houghmessage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400207] (-) TimerEvent: {}
+[0.412554] (houghmessage) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/share/rosidl_default_generators/cmake)\n'}
+[0.418014] (houghmessage) StdoutLine: {'line': b'-- Found class_loader: 2.2.0 (/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/share/class_loader/cmake)\n'}
+[0.422345] (houghmessage) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/share/rclcpp/cmake)\n'}
+[0.500351] (-) TimerEvent: {}
+[0.550863] (houghmessage) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/share/rmw_implementation_cmake/cmake)\n'}
+[0.553683] (houghmessage) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600533] (-) TimerEvent: {}
+[0.700995] (-) TimerEvent: {}
+[0.726494] (houghmessage) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.801173] (-) TimerEvent: {}
+[0.901719] (-) TimerEvent: {}
+[1.002262] (-) TimerEvent: {}
+[1.103048] (-) TimerEvent: {}
+[1.203777] (-) TimerEvent: {}
+[1.304477] (-) TimerEvent: {}
+[1.404997] (-) TimerEvent: {}
+[1.428792] (houghmessage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.505132] (-) TimerEvent: {}
+[1.590079] (houghmessage) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.602927] (houghmessage) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.605281] (-) TimerEvent: {}
+[1.636543] (houghmessage) StdoutLine: {'line': b'-- Generating done\n'}
+[1.649571] (houghmessage) StdoutLine: {'line': b'-- Build files have been written to: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/build/houghmessage\n'}
+[1.705427] (-) TimerEvent: {}
+[1.805891] (-) TimerEvent: {}
+[1.906513] (-) TimerEvent: {}
+[2.007112] (-) TimerEvent: {}
+[2.068418] (houghmessage) StdoutLine: {'line': b'[1/24] Generating C++ code for ROS interfaces\n'}
+[2.097211] (houghmessage) StdoutLine: {'line': b'[2/24] Generating C code for ROS interfaces\n'}
+[2.107245] (-) TimerEvent: {}
+[2.207622] (-) TimerEvent: {}
+[2.245621] (houghmessage) StdoutLine: {'line': b'[3/24] Building C object CMakeFiles/houghmessage__rosidl_generator_c.dir/rosidl_generator_c/houghmessage/msg/detail/r_whough_line__functions.c.o\n'}
+[2.286098] (houghmessage) StdoutLine: {'line': b'[4/24] Linking C shared library libhoughmessage__rosidl_generator_c.so\n'}
+[2.307778] (-) TimerEvent: {}
+[2.408335] (-) TimerEvent: {}
+[2.508772] (-) TimerEvent: {}
+[2.536526] (houghmessage) StdoutLine: {'line': b'[5/24] Generating C++ type support for eProsima Fast-RTPS\n'}
+[2.573345] (houghmessage) StdoutLine: {'line': b'[6/24] Generating C++ type support dispatch for ROS interfaces\n'}
+[2.598091] (houghmessage) StdoutLine: {'line': b'[7/24] Generating C++ introspection for ROS interfaces\n'}
+[2.609097] (-) TimerEvent: {}
+[2.709548] (-) TimerEvent: {}
+[2.810221] (-) TimerEvent: {}
+[2.838220] (houghmessage) StdoutLine: {'line': b'[8/24] Generating C type support dispatch for ROS interfaces\n'}
+[2.839407] (houghmessage) StdoutLine: {'line': b'[9/24] Generating C type support for eProsima Fast-RTPS\n'}
+[2.861276] (houghmessage) StdoutLine: {'line': b'[10/24] Generating C introspection for ROS interfaces\n'}
+[2.899078] (houghmessage) StdoutLine: {'line': b'[11/24] Building CXX object CMakeFiles/houghmessage__rosidl_typesupport_c.dir/rosidl_typesupport_c/houghmessage/msg/r_whough_line__type_support.cpp.o\n'}
+[2.910358] (-) TimerEvent: {}
+[2.994839] (houghmessage) StdoutLine: {'line': b'[12/24] Building C object CMakeFiles/houghmessage__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/houghmessage/msg/detail/r_whough_line__type_support.c.o\n'}
+[3.010539] (-) TimerEvent: {}
+[3.070366] (houghmessage) StdoutLine: {'line': b'[13/24] Linking CXX shared library libhoughmessage__rosidl_typesupport_c.so\n'}
+[3.072968] (houghmessage) StdoutLine: {'line': b'[14/24] Linking C shared library libhoughmessage__rosidl_typesupport_introspection_c.so\n'}
+[3.110697] (-) TimerEvent: {}
+[3.174929] (houghmessage) StdoutLine: {'line': b'[15/24] Building CXX object CMakeFiles/houghmessage__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/houghmessage/msg/r_whough_line__type_support.cpp.o\n'}
+[3.210830] (-) TimerEvent: {}
+[3.311328] (-) TimerEvent: {}
+[3.348337] (houghmessage) StdoutLine: {'line': b'[16/24] Linking CXX shared library libhoughmessage__rosidl_typesupport_cpp.so\n'}
+[3.411466] (-) TimerEvent: {}
+[3.511876] (-) TimerEvent: {}
+[3.514605] (houghmessage) StdoutLine: {'line': b'[17/24] Building CXX object CMakeFiles/houghmessage__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/houghmessage/msg/detail/dds_fastrtps/r_whough_line__type_support.cpp.o\n'}
+[3.554122] (houghmessage) StdoutLine: {'line': b'[18/24] Building CXX object CMakeFiles/houghmessage__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/houghmessage/msg/detail/r_whough_line__type_support.cpp.o\n'}
+[3.612077] (-) TimerEvent: {}
+[3.649288] (houghmessage) StdoutLine: {'line': b'[19/24] Building CXX object CMakeFiles/houghmessage__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/houghmessage/msg/detail/r_whough_line__type_support_c.cpp.o\n'}
+[3.695694] (houghmessage) StdoutLine: {'line': b'[20/24] Linking CXX shared library libhoughmessage__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.712534] (-) TimerEvent: {}
+[3.747681] (houghmessage) StdoutLine: {'line': b'[21/24] Linking CXX shared library libhoughmessage__rosidl_typesupport_introspection_cpp.so\n'}
+[3.812659] (-) TimerEvent: {}
+[3.818107] (houghmessage) StdoutLine: {'line': b'[22/24] Linking CXX shared library libhoughmessage__rosidl_typesupport_fastrtps_c.so\n'}
+[3.912958] (-) TimerEvent: {}
+[4.013550] (-) TimerEvent: {}
+[4.114041] (-) TimerEvent: {}
+[4.214503] (-) TimerEvent: {}
+[4.314944] (-) TimerEvent: {}
+[4.415368] (-) TimerEvent: {}
+[4.515761] (-) TimerEvent: {}
+[4.616169] (-) TimerEvent: {}
+[4.716721] (-) TimerEvent: {}
+[4.817153] (-) TimerEvent: {}
+[4.917594] (-) TimerEvent: {}
+[5.018015] (-) TimerEvent: {}
+[5.118465] (-) TimerEvent: {}
+[5.218957] (-) TimerEvent: {}
+[5.319464] (-) TimerEvent: {}
+[5.420217] (-) TimerEvent: {}
+[5.520623] (-) TimerEvent: {}
+[5.621153] (-) TimerEvent: {}
+[5.721625] (-) TimerEvent: {}
+[5.822209] (-) TimerEvent: {}
+[5.922715] (-) TimerEvent: {}
+[6.023212] (-) TimerEvent: {}
+[6.123706] (-) TimerEvent: {}
+[6.224268] (-) TimerEvent: {}
+[6.324687] (-) TimerEvent: {}
+[6.425169] (-) TimerEvent: {}
+[6.525764] (-) TimerEvent: {}
+[6.626254] (-) TimerEvent: {}
+[6.726813] (-) TimerEvent: {}
+[6.827299] (-) TimerEvent: {}
+[6.927712] (-) TimerEvent: {}
+[7.028188] (-) TimerEvent: {}
+[7.128660] (-) TimerEvent: {}
+[7.229195] (-) TimerEvent: {}
+[7.329747] (-) TimerEvent: {}
+[7.430292] (-) TimerEvent: {}
+[7.530713] (-) TimerEvent: {}
+[7.631185] (-) TimerEvent: {}
+[7.731714] (-) TimerEvent: {}
+[7.832231] (-) TimerEvent: {}
+[7.933010] (-) TimerEvent: {}
+[8.033449] (-) TimerEvent: {}
+[8.134009] (-) TimerEvent: {}
+[8.234490] (-) TimerEvent: {}
+[8.334904] (-) TimerEvent: {}
+[8.435374] (-) TimerEvent: {}
+[8.535820] (-) TimerEvent: {}
+[8.636418] (-) TimerEvent: {}
+[8.736839] (-) TimerEvent: {}
+[8.837334] (-) TimerEvent: {}
+[8.937775] (-) TimerEvent: {}
+[9.038540] (-) TimerEvent: {}
+[9.139065] (-) TimerEvent: {}
+[9.239598] (-) TimerEvent: {}
+[9.340113] (-) TimerEvent: {}
+[9.440529] (-) TimerEvent: {}
+[9.540963] (-) TimerEvent: {}
+[9.641443] (-) TimerEvent: {}
+[9.741986] (-) TimerEvent: {}
+[9.842473] (-) TimerEvent: {}
+[9.942999] (-) TimerEvent: {}
+[10.043476] (-) TimerEvent: {}
+[10.143908] (-) TimerEvent: {}
+[10.244390] (-) TimerEvent: {}
+[10.344800] (-) TimerEvent: {}
+[10.445457] (-) TimerEvent: {}
+[10.545974] (-) TimerEvent: {}
+[10.646551] (-) TimerEvent: {}
+[10.747042] (-) TimerEvent: {}
+[10.847560] (-) TimerEvent: {}
+[10.948068] (-) TimerEvent: {}
+[11.048528] (-) TimerEvent: {}
+[11.149021] (-) TimerEvent: {}
+[11.249394] (-) TimerEvent: {}
+[11.349849] (-) TimerEvent: {}
+[11.450311] (-) TimerEvent: {}
+[11.550766] (-) TimerEvent: {}
+[11.651245] (-) TimerEvent: {}
+[11.751671] (-) TimerEvent: {}
+[11.852248] (-) TimerEvent: {}
+[11.952668] (-) TimerEvent: {}
+[12.053155] (-) TimerEvent: {}
+[12.153593] (-) TimerEvent: {}
+[12.254074] (-) TimerEvent: {}
+[12.354762] (-) TimerEvent: {}
+[12.455307] (-) TimerEvent: {}
+[12.555803] (-) TimerEvent: {}
+[12.656357] (-) TimerEvent: {}
+[12.756834] (-) TimerEvent: {}
+[12.857319] (-) TimerEvent: {}
+[12.957742] (-) TimerEvent: {}
+[13.058139] (-) TimerEvent: {}
+[13.158539] (-) TimerEvent: {}
+[13.259054] (-) TimerEvent: {}
+[13.359456] (-) TimerEvent: {}
+[13.459885] (-) TimerEvent: {}
+[13.560284] (-) TimerEvent: {}
+[13.660708] (-) TimerEvent: {}
+[13.761142] (-) TimerEvent: {}
+[13.861576] (-) TimerEvent: {}
+[13.962056] (-) TimerEvent: {}
+[14.062519] (-) TimerEvent: {}
+[14.163011] (-) TimerEvent: {}
+[14.263448] (-) TimerEvent: {}
+[14.363911] (-) TimerEvent: {}
+[14.464347] (-) TimerEvent: {}
+[14.564762] (-) TimerEvent: {}
+[14.665228] (-) TimerEvent: {}
+[14.765816] (-) TimerEvent: {}
+[14.866339] (-) TimerEvent: {}
+[14.966932] (-) TimerEvent: {}
+[15.067443] (-) TimerEvent: {}
+[15.167860] (-) TimerEvent: {}
+[15.268326] (-) TimerEvent: {}
+[15.368765] (-) TimerEvent: {}
+[15.469335] (-) TimerEvent: {}
+[15.569871] (-) TimerEvent: {}
+[15.670513] (-) TimerEvent: {}
+[15.771162] (-) TimerEvent: {}
+[15.871734] (-) TimerEvent: {}
+[15.972235] (-) TimerEvent: {}
+[16.072840] (-) TimerEvent: {}
+[16.173434] (-) TimerEvent: {}
+[16.273835] (-) TimerEvent: {}
+[16.374269] (-) TimerEvent: {}
+[16.474773] (-) TimerEvent: {}
+[16.575228] (-) TimerEvent: {}
+[16.675695] (-) TimerEvent: {}
+[16.776237] (-) TimerEvent: {}
+[16.876658] (-) TimerEvent: {}
+[16.977116] (-) TimerEvent: {}
+[17.077590] (-) TimerEvent: {}
+[17.178086] (-) TimerEvent: {}
+[17.278826] (-) TimerEvent: {}
+[17.379302] (-) TimerEvent: {}
+[17.479964] (-) TimerEvent: {}
+[17.580414] (-) TimerEvent: {}
+[17.680817] (-) TimerEvent: {}
+[17.781414] (-) TimerEvent: {}
+[17.881968] (-) TimerEvent: {}
+[17.982478] (-) TimerEvent: {}
+[18.082918] (-) TimerEvent: {}
+[18.183467] (-) TimerEvent: {}
+[18.283969] (-) TimerEvent: {}
+[18.384400] (-) TimerEvent: {}
+[18.484828] (-) TimerEvent: {}
+[18.585344] (-) TimerEvent: {}
+[18.685947] (-) TimerEvent: {}
+[18.786434] (-) TimerEvent: {}
+[18.886951] (-) TimerEvent: {}
+[18.987530] (-) TimerEvent: {}
+[19.038435] (houghmessage) StdoutLine: {'line': b'[23/24] Building CXX object CMakeFiles/houghmessage_matlab.dir/src/houghmessage_RWhoughLine_message.cpp.o\n'}
+[19.087708] (-) TimerEvent: {}
+[19.188221] (-) TimerEvent: {}
+[19.288660] (-) TimerEvent: {}
+[19.389124] (-) TimerEvent: {}
+[19.489505] (-) TimerEvent: {}
+[19.589998] (-) TimerEvent: {}
+[19.690406] (-) TimerEvent: {}
+[19.790806] (-) TimerEvent: {}
+[19.861519] (houghmessage) StdoutLine: {'line': b'[24/24] Linking CXX shared library libhoughmessage_matlab.so\n'}
+[19.865408] (houghmessage) CommandEnded: {'returncode': 0}
+[19.890950] (-) TimerEvent: {}
+[19.892393] (houghmessage) JobProgress: {'identifier': 'houghmessage', 'progress': 'install'}
+[19.899615] (houghmessage) Command: {'cmd': ['/home/niklas/MatlabInstall/bin/glnxa64/cmake/bin/cmake', '--install', '/home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/build/houghmessage'], 'cwd': '/home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/build/houghmessage', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('ARCH', 'glnxa64'), ('CUSTOM_LD_LIBRARY_PATH', ''), ('USER', 'niklas'), ('LOCAL_PYTHON_VENV_PATH', '/home/niklas/.matlab/R2023b/ros2/glnxa64/venv'), ('MEMKIND_HEAP_MANAGER', 'TBB'), ('CUSTOM_AMENT_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install:/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2'), ('XDG_SESSION_TYPE', 'wayland'), ('KMP_HANDLE_SIGNALS', '0'), ('SHLVL', '1'), ('ICU_TIMEZONE_FILES_DIR', '/home/niklas/MatlabInstall/bin/icutzdata'), ('LD_LIBRARY_PATH', ':/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/lib:/home/niklas/MatlabInstall/sys/os/glnxa64:/home/niklas/MatlabInstall/bin/glnxa64:/home/niklas/.MathWorks/hI-hW4-1jBBiwHATctu_by6NbE_ktAtZ-IgcxHOTZjs/bin/glnxa64:/home/niklas/MatlabInstall/extern/lib/glnxa64:/home/niklas/MatlabInstall/cefclient/sys/os/glnxa64:/home/niklas/MatlabInstall/runtime/glnxa64:/home/niklas/MatlabInstall/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/home/niklas/MatlabInstall/sys/java/jre/glnxa64/jre/lib/amd64/server'), ('BASEMATLABPATH', ''), ('HOME', '/home/niklas'), ('AUTOMOUNT_MAP', ''), ('OLDPWD', '/home/niklas/MatlabInstall'), ('DESKTOP_SESSION', 'ubuntu'), ('MW_LD_SHIM', '/home/niklas/MatlabInstall/bin/glnxa64/ld_shim.so.2.35.ubuntu_22_04'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/matlab.desktop'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', ''), ('PS1', '(venv)'), ('LIBVA_MESSAGING_LEVEL', '0'), ('MANAGERPID', '1669'), ('SYSTEMD_EXEC_PID', '1850'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5470'), ('CUSTOM_SITE_PACKAGES_PATH', ''), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install:/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2:/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'niklas'), ('JOURNAL_STREAM', '8:28522'), ('_', '/home/niklas/.matlab/R2023b/ros2/glnxa64/venv/bin/colcon'), ('PKG_CONFIG_PATH', '/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'niklas'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/home/niklas/MatlabInstall/bin/glnxa64/cmake/bin::/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/bin:/home/niklas/.matlab/R2023b/ros2/glnxa64/venv/bin:/home/niklas/.matlab/R2023b/ros2/glnxa64/venv/bin:/home/niklas/MatlabInstall/toolbox/shared/coder/ninja/glnxa64:/home/niklas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/niklas-Lenovo-V155-15API:@/tmp/.ICE-unix/1827,unix/niklas-Lenovo-V155-15API:/tmp/.ICE-unix/1827'), ('INVOCATION_ID', '22afe0b8969e4a86afb34ff2d199c9cb'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('TOOLBOX', '/home/niklas/MatlabInstall/toolbox'), ('MKL_DOMAIN_NUM_THREADS', ''), ('KMP_INIT_AT_FORK', 'false'), ('DISPLAY', ':0'), ('LD_PRELOAD', ''), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PRE_LD_PRELOAD', ''), ('VIRTUAL_ENV_PROMPT', '(venv)'), ('RMW_IMPLEMENTATION', ''), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.TY2NC2'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install:/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2:/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2'), ('SHELL', '/bin/bash'), ('CMAKE_PATH', '/home/niklas/MatlabInstall/bin/glnxa64/cmake/bin'), ('XFILESEARCHPATH', '/home/niklas/MatlabInstall/sys/java/jre/glnxa64/jre/lib/locale/%L/%T/%N%S:'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('OSG_LD_LIBRARY_PATH', '/home/niklas/MatlabInstall/sys/openscenegraph/lib/glnxa64'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VIRTUAL_ENV', '/home/niklas/.matlab/R2023b/ros2/glnxa64/venv'), ('CUSTOM_PATH', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/build/houghmessage'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DYLD_LIBRARY_PATH', ':/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/lib:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('MKL_NUM_THREADS', ''), ('MW_PATCH_OFFSETS', '0000117000002EA0'), ('PYTHONPATH', ':/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2/lib/python3.9/site-packages:/home/niklas/.matlab/R2023b/ros2/glnxa64/venv/lib/python3.10/site-packages:'), ('LC_NUMERIC', 'C'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install:/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2:/home/niklas/MatlabInstall/sys/ros2/glnxa64/ros2')]), 'shell': False}
+[19.904382] (houghmessage) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[19.904877] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/rosidl_interfaces/houghmessage\n'}
+[19.905251] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage\n'}
+[19.905486] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg\n'}
+[19.905784] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/rosidl_generator_c__visibility_control.h\n'}
+[19.906000] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/r_whough_line.h\n'}
+[19.906206] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/detail\n'}
+[19.906412] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/detail/r_whough_line__struct.h\n'}
+[19.906678] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/detail/r_whough_line__functions.h\n'}
+[19.906883] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/detail/r_whough_line__functions.c\n'}
+[19.907070] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/detail/r_whough_line__type_support.h\n'}
+[19.907215] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/environment/library_path.sh\n'}
+[19.907365] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/environment/library_path.dsv\n'}
+[19.907624] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/lib/libhoughmessage__rosidl_generator_c.so\n'}
+[19.907775] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage\n'}
+[19.907929] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg\n'}
+[19.908076] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[19.908234] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/detail\n'}
+[19.908379] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/detail/r_whough_line__rosidl_typesupport_fastrtps_c.h\n'}
+[19.908532] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/lib/libhoughmessage__rosidl_typesupport_fastrtps_c.so\n'}
+[19.908685] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage\n'}
+[19.908924] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg\n'}
+[19.909079] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[19.909237] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/detail\n'}
+[19.909426] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/detail/r_whough_line__rosidl_typesupport_introspection_c.h\n'}
+[19.909562] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/detail/r_whough_line__type_support.c\n'}
+[19.909705] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/lib/libhoughmessage__rosidl_typesupport_introspection_c.so\n'}
+[19.909846] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/lib/libhoughmessage__rosidl_typesupport_c.so\n'}
+[19.910069] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage\n'}
+[19.910230] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg\n'}
+[19.910437] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/r_whough_line.hpp\n'}
+[19.910581] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/detail\n'}
+[19.910727] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/detail/r_whough_line__traits.hpp\n'}
+[19.910936] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/detail/r_whough_line__builder.hpp\n'}
+[19.911076] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/detail/r_whough_line__struct.hpp\n'}
+[19.911257] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage\n'}
+[19.911404] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg\n'}
+[19.911631] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[19.911792] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/detail\n'}
+[19.911964] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/detail/dds_fastrtps\n'}
+[19.912105] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/detail/r_whough_line__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[19.912248] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/lib/libhoughmessage__rosidl_typesupport_fastrtps_cpp.so\n'}
+[19.912472] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage\n'}
+[19.912610] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg\n'}
+[19.912764] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/detail\n'}
+[19.913371] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/detail/r_whough_line__type_support.cpp\n'}
+[19.913654] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/houghmessage/msg/detail/r_whough_line__rosidl_typesupport_introspection_cpp.hpp\n'}
+[19.913811] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/lib/libhoughmessage__rosidl_typesupport_introspection_cpp.so\n'}
+[19.914026] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/lib/libhoughmessage__rosidl_typesupport_cpp.so\n'}
+[19.914395] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/msg/RWhoughLine.idl\n'}
+[19.914662] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/msg/RWhoughLine.msg\n'}
+[19.914899] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include\n'}
+[19.915138] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage\n'}
+[19.915321] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/include/houghmessage/visibility_control.h\n'}
+[19.915462] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/lib/libhoughmessage_matlab.so\n'}
+[19.936444] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/m/\n'}
+[19.936984] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/m//+ros\n'}
+[19.937432] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/m//+ros/+internal\n'}
+[19.937832] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2\n'}
+[19.938165] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages\n'}
+[19.938386] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+houghmessage\n'}
+[19.938662] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+houghmessage/rWhoughLine.m\n'}
+[19.938904] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+houghmessage/houghmessage_msg_RWhoughLine_2To1_Converter.m\n'}
+[19.939123] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/m//+ros/+internal/+ros2/+custommessages/+houghmessage/houghmessage_msg_RWhoughLine_1To2_Converter.m\n'}
+[19.939368] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/package_run_dependencies/houghmessage\n'}
+[19.939584] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/parent_prefix_path/houghmessage\n'}
+[19.939815] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/environment/ament_prefix_path.sh\n'}
+[19.940101] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/environment/ament_prefix_path.dsv\n'}
+[19.940304] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/environment/path.sh\n'}
+[19.940526] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/environment/path.dsv\n'}
+[19.940738] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/local_setup.bash\n'}
+[19.940940] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/local_setup.sh\n'}
+[19.941202] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/local_setup.zsh\n'}
+[19.941397] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/local_setup.dsv\n'}
+[19.941662] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/package.dsv\n'}
+[19.941897] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/ament_index/resource_index/packages/houghmessage\n'}
+[19.942067] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/export_houghmessage__rosidl_generator_cExport.cmake\n'}
+[19.942309] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/export_houghmessage__rosidl_generator_cExport-release.cmake\n'}
+[19.942503] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/export_houghmessage__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[19.942732] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/export_houghmessage__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[19.942900] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/houghmessage__rosidl_typesupport_introspection_cExport.cmake\n'}
+[19.943059] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/houghmessage__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[19.943205] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/houghmessage__rosidl_typesupport_cExport.cmake\n'}
+[19.943337] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/houghmessage__rosidl_typesupport_cExport-release.cmake\n'}
+[19.943483] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/export_houghmessage__rosidl_generator_cppExport.cmake\n'}
+[19.943611] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/export_houghmessage__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[19.943737] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/export_houghmessage__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[19.943870] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/houghmessage__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[19.943998] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/houghmessage__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[19.944125] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/houghmessage__rosidl_typesupport_cppExport.cmake\n'}
+[19.944257] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/houghmessage__rosidl_typesupport_cppExport-release.cmake\n'}
+[19.944393] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/rosidl_cmake-extras.cmake\n'}
+[19.944533] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.944676] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.945330] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.949240] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[19.949656] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.950049] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[19.950292] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/houghmessageConfig.cmake\n'}
+[19.953375] (houghmessage) StdoutLine: {'line': b'-- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/cmake/houghmessageConfig-version.cmake\n'}
+[19.953634] (houghmessage) StdoutLine: {'line': b'-- Installing: /home/niklas/Documents/Telerrobotics/Lab2/Matlab/ros2CustomMessages/matlab_msg_gen/glnxa64/install/share/houghmessage/package.xml\n'}
+[19.956590] (houghmessage) CommandEnded: {'returncode': 0}
+[19.996196] (-) TimerEvent: {}
+[20.106169] (-) TimerEvent: {}
+[20.142951] (houghmessage) JobEnded: {'identifier': 'houghmessage', 'rc': 0}
+[20.144320] (-) EventReactorShutdown: {}

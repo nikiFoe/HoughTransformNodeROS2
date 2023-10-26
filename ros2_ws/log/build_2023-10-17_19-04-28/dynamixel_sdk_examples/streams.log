@@ -1,0 +1,7 @@
+[0.691s] Invoking command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/dynamixel_sdk_examples': AMENT_PREFIX_PATH=/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/dynamixel_sdk_examples -- -j8 -l8
+[0.832s] [ 50%] [32mBuilding CXX object CMakeFiles/read_write_node.dir/src/read_write_node.cpp.o[0m
+[17.812s] [100%] [32m[1mLinking CXX executable read_write_node[0m
+[18.650s] gmake[2]: *** Deleting file 'read_write_node'
+[18.652s] gmake[2]: *** [CMakeFiles/read_write_node.dir/build.make:160: read_write_node] Interrupt
+[18.652s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/read_write_node.dir/all] Interrupt
+[18.652s] gmake: *** [Makefile:146: all] Interrupt

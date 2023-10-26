@@ -1,0 +1,40 @@
+[0.171s] Invoking command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth -- -j8 -l8
+[0.274s] [35m[1mConsolidate compiler generated dependencies of target rwth_publish[0m
+[0.318s] [ 50%] [32mBuilding CXX object CMakeFiles/rwth_publish.dir/src/rwth.cpp.o[0m
+[4.623s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:[m[K In lambda function:
+[4.623s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:61:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.623s]    61 |                         for(int i = 0; [01;35m[Ki < ranges.size()[m[K; i++)
+[4.623s]       |                                        [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[4.623s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:74:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.624s]    74 |                         for (int i = 0; [01;35m[Ki < ranges.size()[m[K; ++i) {
+[4.624s]       |                                         [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[4.624s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:83:31:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KC[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[4.624s]    83 |                         float [01;35m[KC[m[K[Nr][NTh]={};
+[4.624s]       |                               [01;35m[K^[m[K
+[4.624s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:83:31:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KC[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+[4.633s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:115:33:[m[K [01;31m[Kerror: [m[K‘[01m[KfThetha[m[K’ was not declared in this scope; did you mean ‘[01m[KfTheta[m[K’?
+[4.633s]   115 |                                 [01;31m[KfThetha[m[K += dTheta;
+[4.633s]       |                                 [01;31m[K^~~~~~~[m[K
+[4.633s]       |                                 [32m[KfTheta[m[K
+[4.636s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:135:39:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.636s]   135 |                                 float [01;35m[Kg[m[K = 0.0;
+[4.636s]       |                                       [01;35m[K^[m[K
+[4.636s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:52:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_max[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.637s]    52 |                         float [01;35m[Kangle_max[m[K = msg->angle_max;
+[4.637s]       |                               [01;35m[K^~~~~~~~~[m[K
+[4.637s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:54:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krange_min[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.637s]    54 |                         float [01;35m[Krange_min[m[K = msg->range_min;
+[4.637s]       |                               [01;35m[K^~~~~~~~~[m[K
+[4.637s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:55:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krange_max[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.638s]    55 |                         float [01;35m[Krange_max[m[K = msg->range_max;
+[4.638s]       |                               [01;35m[K^~~~~~~~~[m[K
+[4.638s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:81:29:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNrOfMeas[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.638s]    81 |                         int [01;35m[KNrOfMeas[m[K=ranges.size();
+[4.638s]       |                             [01;35m[K^~~~~~~~[m[K
+[4.638s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:108:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.639s]   108 |                         float [01;35m[Ktres[m[K=0.1;
+[4.639s]       |                               [01;35m[K^~~~[m[K
+[9.678s] gmake[2]: *** [CMakeFiles/rwth_publish.dir/build.make:76: CMakeFiles/rwth_publish.dir/src/rwth.cpp.o] Error 1
+[9.678s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rwth_publish.dir/all] Error 2
+[9.679s] gmake: *** [Makefile:146: all] Error 2
+[9.684s] Invoked command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth -- -j8 -l8

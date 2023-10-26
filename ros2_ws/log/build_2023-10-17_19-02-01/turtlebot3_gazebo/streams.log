@@ -1,0 +1,19 @@
+[0.262s] Invoking command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/turtlebot3_gazebo -- -j8 -l8
+[0.412s] [ 12%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[0.437s] [ 25%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[0.438s] [ 37%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[0.441s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[21.544s] [ 62%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[22.783s] [ 62%] Built target turtlebot3_drive
+[23.984s] [ 75%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[24.010s] [ 87%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[24.556s] gmake[2]: *** Deleting file 'CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o'
+[24.556s] gmake[2]: *** Deleting file 'libobstacles.so'
+[24.556s] gmake[2]: *** Deleting file 'libobstacle1.so'
+[24.557s] gmake[2]: *** [CMakeFiles/obstacle1.dir/build.make:148: libobstacle1.so] Interrupt
+[24.557s] gmake[2]: *** [CMakeFiles/obstacles.dir/build.make:148: libobstacles.so] Interrupt
+[24.557s] gmake[2]: *** [CMakeFiles/obstacle2.dir/build.make:76: CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o] Interrupt
+[24.558s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/obstacle1.dir/all] Interrupt
+[24.558s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/obstacles.dir/all] Interrupt
+[24.558s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/obstacle2.dir/all] Interrupt
+[24.558s] gmake: *** [Makefile:146: all] Interrupt

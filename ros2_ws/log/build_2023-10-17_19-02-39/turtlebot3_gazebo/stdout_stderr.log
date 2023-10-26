@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target turtlebot3_drive[0m
+[35m[1mConsolidate compiler generated dependencies of target obstacle1[0m
+[35m[1mConsolidate compiler generated dependencies of target obstacles[0m
+[ 25%] Built target turtlebot3_drive
+[35m[1mConsolidate compiler generated dependencies of target obstacle2[0m
+[ 37%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[ 50%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[ 75%] Built target obstacles
+[ 87%] Built target obstacle1
+gmake[2]: *** [CMakeFiles/obstacle2.dir/build.make:76: CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/obstacle2.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

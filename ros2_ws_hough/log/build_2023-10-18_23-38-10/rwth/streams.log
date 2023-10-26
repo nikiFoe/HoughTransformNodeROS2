@@ -1,0 +1,52 @@
+[0.407s] Invoking command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth -DCMAKE_INSTALL_PREFIX=/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth
+[0.573s] -- The C compiler identification is GNU 11.4.0
+[0.746s] -- The CXX compiler identification is GNU 11.4.0
+[0.783s] -- Detecting C compiler ABI info
+[1.025s] -- Detecting C compiler ABI info - done
+[1.043s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.043s] -- Detecting C compile features
+[1.045s] -- Detecting C compile features - done
+[1.052s] -- Detecting CXX compiler ABI info
+[1.319s] -- Detecting CXX compiler ABI info - done
+[1.337s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.338s] -- Detecting CXX compile features
+[1.342s] -- Detecting CXX compile features - done
+[1.353s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.934s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.233s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[2.414s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.429s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.453s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.527s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.004s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.015s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.568s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.734s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.044s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.103s] -- Looking for pthread.h
+[4.839s] -- Looking for pthread.h - found
+[4.840s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.399s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.402s] -- Found Threads: TRUE  
+[6.087s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.612s] [31mCMake Error at CMakeLists.txt:17 (find_package):
+[6.612s]   By not providing "Findhoughmessage.cmake" in CMAKE_MODULE_PATH this project
+[6.612s]   has asked CMake to find a package configuration file provided by
+[6.613s]   "houghmessage", but CMake did not find one.
+[6.613s] 
+[6.613s]   Could not find a package configuration file provided by "houghmessage" with
+[6.613s]   any of the following names:
+[6.614s] 
+[6.614s]     houghmessageConfig.cmake
+[6.614s]     houghmessage-config.cmake
+[6.615s] 
+[6.615s]   Add the installation prefix of "houghmessage" to CMAKE_PREFIX_PATH or set
+[6.615s]   "houghmessage_DIR" to a directory containing one of the above files.  If
+[6.616s]   "houghmessage" provides a separate development package or SDK, be sure it
+[6.616s]   has been installed.
+[6.616s] 
+[6.616s] [0m
+[6.617s] -- Configuring incomplete, errors occurred!
+[6.617s] See also "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth/CMakeFiles/CMakeOutput.log".
+[6.641s] Invoked command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth -DCMAKE_INSTALL_PREFIX=/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth

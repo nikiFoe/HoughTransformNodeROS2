@@ -1,0 +1,4 @@
+gmake[2]: *** Deleting file 'libobstacle2.so'
+gmake[2]: *** [CMakeFiles/obstacle2.dir/build.make:148: libobstacle2.so] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/obstacle2.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

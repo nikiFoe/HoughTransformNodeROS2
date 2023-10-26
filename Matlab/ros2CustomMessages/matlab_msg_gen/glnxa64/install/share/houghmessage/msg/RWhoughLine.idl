@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from houghmessage/msg/RWhoughLine.msg
+// generated code does not contain a copyright notice
+
+
+module houghmessage {
+  module msg {
+    @verbatim (language="comment", text=
+      "RWhoughLine.msg")
+    struct RWhoughLine {
+      sequence<float> cmatrix;
+
+      float thaxis;
+
+      float raxis;
+
+      sequence<float> vranges;
+
+      sequence<float> vangles;
+
+      int32 row;
+
+      int32 col;
+    };
+  };
+};

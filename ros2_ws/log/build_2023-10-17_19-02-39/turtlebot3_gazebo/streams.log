@@ -1,0 +1,14 @@
+[0.257s] Invoking command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/turtlebot3_gazebo -- -j8 -l8
+[0.391s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_drive[0m
+[0.402s] [35m[1mConsolidate compiler generated dependencies of target obstacle1[0m
+[0.440s] [35m[1mConsolidate compiler generated dependencies of target obstacles[0m
+[0.451s] [ 25%] Built target turtlebot3_drive
+[0.455s] [35m[1mConsolidate compiler generated dependencies of target obstacle2[0m
+[0.602s] [ 37%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[0.602s] [ 50%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[0.619s] [ 62%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[1.462s] [ 75%] Built target obstacles
+[1.462s] [ 87%] Built target obstacle1
+[24.108s] gmake[2]: *** [CMakeFiles/obstacle2.dir/build.make:76: CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o] Interrupt
+[24.109s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/obstacle2.dir/all] Interrupt
+[24.110s] gmake: *** [Makefile:146: all] Interrupt

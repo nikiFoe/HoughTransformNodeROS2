@@ -1,0 +1,5 @@
+[1.075s] Invoking command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/turtlebot3_fake_node': AMENT_PREFIX_PATH=/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/turtlebot3_fake_node -- -j8 -l8
+[1.547s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[20.165s] gmake[2]: *** [CMakeFiles/turtlebot3_fake_node.dir/build.make:76: CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o] Interrupt
+[20.166s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlebot3_fake_node.dir/all] Interrupt
+[20.166s] gmake: *** [Makefile:146: all] Interrupt

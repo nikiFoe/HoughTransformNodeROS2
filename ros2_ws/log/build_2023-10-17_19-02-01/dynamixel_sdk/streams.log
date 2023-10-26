@@ -1,0 +1,42 @@
+[0.487s] Invoking command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/dynamixel_sdk -- -j8 -l8
+[0.585s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk[0m
+[0.631s] [100%] Built target dynamixel_sdk
+[1.372s] Invoked command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/dynamixel_sdk -- -j8 -l8
+[1.844s] Invoking command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/dynamixel_sdk
+[2.119s] -- Install configuration: ""
+[2.119s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/include/
+[2.119s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk
+[2.119s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[2.119s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[2.119s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[2.120s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[2.120s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[2.120s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[2.120s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[2.120s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[2.120s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[2.121s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[2.121s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[2.121s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[2.121s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[2.121s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[2.121s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[2.122s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[2.122s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[2.122s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[2.122s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[2.122s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[2.122s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[2.122s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[2.123s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[2.123s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[2.123s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[2.123s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[2.123s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[2.123s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[2.124s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.124s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[2.124s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[2.124s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[2.124s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[2.401s] Invoked command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/dynamixel_sdk

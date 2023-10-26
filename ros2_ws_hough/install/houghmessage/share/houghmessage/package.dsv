@@ -1,0 +1,11 @@
+source;share/houghmessage/hook/cmake_prefix_path.ps1
+source;share/houghmessage/hook/cmake_prefix_path.dsv
+source;share/houghmessage/hook/cmake_prefix_path.sh
+source;share/houghmessage/hook/ld_library_path_lib.ps1
+source;share/houghmessage/hook/ld_library_path_lib.dsv
+source;share/houghmessage/hook/ld_library_path_lib.sh
+source;share/houghmessage/local_setup.bash
+source;share/houghmessage/local_setup.dsv
+source;share/houghmessage/local_setup.ps1
+source;share/houghmessage/local_setup.sh
+source;share/houghmessage/local_setup.zsh

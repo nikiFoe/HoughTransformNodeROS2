@@ -1,0 +1,206 @@
+[0.377s] Invoking command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[0.481s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_generator_c[0m
+[0.556s] [  2%] Built target dynamixel_sdk_custom_interfaces__cpp
+[0.556s] [ 12%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[0.604s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.605s] [ 12%] Built target ament_cmake_python_copy_dynamixel_sdk_custom_interfaces
+[0.634s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.634s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp[0m
+[0.636s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.660s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c[0m
+[0.676s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c[0m
+[0.696s] [ 23%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.738s] [ 33%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[0.749s] [ 43%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[0.753s] [ 53%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[0.780s] [ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[0.809s] [ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[0.928s] [ 74%] Built target dynamixel_sdk_custom_interfaces
+[0.997s] [ 76%] Built target dynamixel_sdk_custom_interfaces__py
+[1.017s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_generator_py[0m
+[1.055s] [ 84%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py
+[1.101s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext[0m
+[1.102s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.111s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[1.159s] [ 89%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext
+[1.160s] [ 94%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.183s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.292s] running egg_info
+[1.295s] writing dynamixel_sdk_custom_interfaces.egg-info/PKG-INFO
+[1.296s] writing dependency_links to dynamixel_sdk_custom_interfaces.egg-info/dependency_links.txt
+[1.296s] writing top-level names to dynamixel_sdk_custom_interfaces.egg-info/top_level.txt
+[1.303s] reading manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[1.310s] writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[1.429s] [100%] Built target ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg
+[1.980s] Invoked command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[2.663s] Invoking command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/dynamixel_sdk_custom_interfaces
+[2.684s] -- Install configuration: ""
+[2.685s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/dynamixel_sdk_custom_interfaces
+[2.687s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[2.687s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[2.687s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.h
+[2.687s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[2.690s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.c
+[2.691s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.h
+[2.691s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__functions.h
+[2.692s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.h
+[2.692s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[2.692s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.693s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.h
+[2.694s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[2.694s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.h
+[2.694s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.h
+[2.695s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.c
+[2.695s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.h
+[2.695s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.sh
+[2.696s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/library_path.dsv
+[2.696s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so
+[2.699s] -- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_c.so" to ""
+[2.699s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[2.699s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[2.700s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[2.700s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_c.h
+[2.700s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[2.700s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.700s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[2.701s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_c.h
+[2.701s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.702s] -- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.705s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[2.708s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[2.708s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[2.709s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__traits.hpp
+[2.709s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp
+[2.709s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__builder.hpp
+[2.710s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/get_position.hpp
+[2.710s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[2.710s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.hpp
+[2.710s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[2.710s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__traits.hpp
+[2.711s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp
+[2.711s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__builder.hpp
+[2.711s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[2.711s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[2.712s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[2.712s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/dds_fastrtps
+[2.712s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_fastrtps_cpp.hpp
+[2.712s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[2.712s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.713s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[2.715s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/dds_fastrtps
+[2.715s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_fastrtps_cpp.hpp
+[2.722s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.723s] -- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.724s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[2.724s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[2.724s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[2.724s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.c
+[2.725s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_c.h
+[2.725s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[2.725s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.725s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[2.726s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_c.h
+[2.726s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.c
+[2.726s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so
+[2.726s] -- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.727s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so
+[2.727s] -- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_c.so" to ""
+[2.727s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces
+[2.727s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv
+[2.728s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail
+[2.728s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__type_support.cpp
+[2.728s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/srv/detail/get_position__rosidl_typesupport_introspection_cpp.hpp
+[2.728s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg
+[2.728s] -- Up-to-date: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail
+[2.729s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_cpp.hpp
+[2.729s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.cpp
+[2.729s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.729s] -- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.729s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so
+[2.730s] -- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.730s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.sh
+[2.730s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/pythonpath.dsv
+[2.730s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info
+[2.730s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info/dependency_links.txt
+[2.730s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info/PKG-INFO
+[2.731s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info/SOURCES.txt
+[2.731s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces-3.7.60-py3.10.egg-info/top_level.txt
+[2.731s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces
+[2.731s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.731s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[2.731s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/_dynamixel_sdk_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.732s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/__init__.py
+[2.732s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv
+[2.732s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/_get_position_s.c
+[2.732s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py
+[2.732s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py
+[2.732s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.733s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg
+[2.733s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/_set_position_s.c
+[2.733s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py
+[2.733s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py
+[2.753s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so
+[2.754s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.754s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.818s] Listing '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces'...
+[2.818s] Compiling '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/__init__.py'...
+[2.819s] Listing '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg'...
+[2.819s] Compiling '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/__init__.py'...
+[2.819s] Compiling '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/msg/_set_position.py'...
+[2.819s] Listing '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv'...
+[2.819s] Compiling '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/__init__.py'...
+[2.819s] Compiling '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/srv/_get_position.py'...
+[2.849s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.850s] -- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.850s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.850s] -- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.851s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.851s] -- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.851s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so
+[2.851s] -- Set runtime path of "/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib/libdynamixel_sdk_custom_interfaces__rosidl_generator_py.so" to ""
+[2.851s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl
+[2.852s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl
+[2.855s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/msg/SetPosition.msg
+[2.857s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition.srv
+[2.857s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Request.msg
+[2.864s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/srv/GetPosition_Response.msg
+[2.865s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk_custom_interfaces
+[2.866s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk_custom_interfaces
+[2.869s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.sh
+[2.870s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/ament_prefix_path.dsv
+[2.875s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.sh
+[2.875s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/environment/path.dsv
+[2.876s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.bash
+[2.876s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.sh
+[2.876s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.zsh
+[2.876s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/local_setup.dsv
+[2.881s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv
+[2.881s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/ament_index/resource_index/packages/dynamixel_sdk_custom_interfaces
+[2.882s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport.cmake
+[2.882s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.882s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.882s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.883s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_cppExport.cmake
+[2.883s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.883s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.883s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.883s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.884s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport.cmake
+[2.884s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.884s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.885s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.885s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport.cmake
+[2.885s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.886s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport.cmake
+[2.886s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/export_dynamixel_sdk_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.886s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.889s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.890s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.890s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.890s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.890s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.890s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.890s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig.cmake
+[2.899s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake/dynamixel_sdk_custom_interfacesConfig-version.cmake
+[2.899s] -- Installing: /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.xml
+[3.038s] Invoked command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/dynamixel_sdk_custom_interfaces

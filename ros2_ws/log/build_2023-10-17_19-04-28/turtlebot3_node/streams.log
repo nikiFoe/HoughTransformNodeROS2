@@ -1,0 +1,10 @@
+[0.549s] Invoking command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_msgs:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_msgs:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_msgs/lib:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws/build/turtlebot3_node -- -j8 -l8
+[1.122s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_node_lib[0m
+[1.123s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[1.123s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[1.123s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[1.123s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[19.109s] gmake[2]: *** [CMakeFiles/turtlebot3_node_lib.dir/build.make:146: CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o] Interrupt
+[19.109s] gmake[2]: *** [CMakeFiles/turtlebot3_node_lib.dir/build.make:160: CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o] Interrupt
+[19.109s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/turtlebot3_node_lib.dir/all] Interrupt
+[19.110s] gmake: *** [Makefile:146: all] Interrupt

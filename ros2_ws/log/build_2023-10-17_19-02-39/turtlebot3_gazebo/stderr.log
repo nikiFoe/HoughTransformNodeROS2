@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/obstacle2.dir/build.make:76: CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/obstacle2.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

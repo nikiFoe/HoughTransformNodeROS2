@@ -1,0 +1,8 @@
+setup.py
+houghmessage/__init__.py
+houghmessage.egg-info/PKG-INFO
+houghmessage.egg-info/SOURCES.txt
+houghmessage.egg-info/dependency_links.txt
+houghmessage.egg-info/top_level.txt
+houghmessage/msg/__init__.py
+houghmessage/msg/_r_whough_line.py

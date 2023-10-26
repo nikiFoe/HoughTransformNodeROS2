@@ -1,0 +1,5 @@
+[ 25%] Built target turtlebot3_drive
+[ 50%] Built target obstacle1
+[ 75%] Built target obstacles
+[ 87%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[100%] [32m[1mLinking CXX shared library libobstacle2.so[0m
