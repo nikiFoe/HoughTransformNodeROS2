@@ -1,0 +1,38 @@
+[35m[1mConsolidate compiler generated dependencies of target rwth_publish[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rwth_publish.dir/src/rwth.cpp.o[0m
+In file included from [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:9[m[K:
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:[m[K In member function ‘[01m[Kfloat Helper::findMaxValue(float**)[m[K’:
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:20:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KC[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   20 |       float findMaxValue([01;35m[Kfloat** C[m[K)
+      |                          [01;35m[K~~~~~~~~^[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:[m[K In lambda function:
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:58:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   58 |                 for(int i = 0; [01;35m[Ki < ranges.size()[m[K; i++)
+      |                                [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:68:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   68 |                 for (int i = 0; [01;35m[Ki < ranges.size()[m[K; ++i) {
+      |                                 [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:125:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  125 |                         float [01;35m[Kg[m[K = 0.0;
+      |                               [01;35m[K^[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:199:71:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kfloat[m[K’ to non-scalar type ‘[01m[Kstd::tuple<int, int>[m[K’ requested
+  199 |                 std::tuple<int, int> maxValue = [01;31m[KnewHelper.findMaxValue(C)[m[K;
+      |                                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:48:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_max[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   48 |                 float [01;35m[Kangle_max[m[K = msg->angle_max;
+      |                       [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:50:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krange_min[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   50 |                 float [01;35m[Krange_min[m[K = msg->range_min;
+      |                       [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:51:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krange_max[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   51 |                 float [01;35m[Krange_max[m[K = msg->range_max;
+      |                       [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:74:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNrOfMeas[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   74 |                 int [01;35m[KNrOfMeas[m[K=ranges.size();
+      |                     [01;35m[K^~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:109:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  109 |                 float [01;35m[Ktres[m[K=0.1;
+      |                       [01;35m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/rwth_publish.dir/build.make:76: CMakeFiles/rwth_publish.dir/src/rwth.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rwth_publish.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

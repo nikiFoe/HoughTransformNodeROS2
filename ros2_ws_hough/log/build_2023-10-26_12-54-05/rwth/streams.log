@@ -1,0 +1,53 @@
+[0.118s] Invoking command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth -- -j8 -l8
+[0.199s] [35m[1mConsolidate compiler generated dependencies of target rwth_publish[0m
+[0.246s] [ 50%] [32mBuilding CXX object CMakeFiles/rwth_publish.dir/src/rwth.cpp.o[0m
+[3.692s] In file included from [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:8[m[K:
+[3.692s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:[m[K In member function ‘[01m[Kfloat Helper::findMaxValue(float**)[m[K’:
+[3.693s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:20:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KC[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.693s]    20 |       float findMaxValue([01;35m[Kfloat** C[m[K)
+[3.693s]       |                          [01;35m[K~~~~~~~~^[m[K
+[3.755s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:[m[K In lambda function:
+[3.755s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:57:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.755s]    57 |                 for(int i = 0; [01;35m[Ki < ranges.size()[m[K; i++)
+[3.755s]       |                                [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[3.756s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:67:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.756s]    67 |                 for (int i = 0; [01;35m[Ki < ranges.size()[m[K; ++i) {
+[3.756s]       |                                 [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[3.760s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:123:63:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kvalu[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.760s]   123 |                                                       float [01;35m[Kvalu[m[K = C[Ri][h]+R[j];
+[3.760s]       |                                                             [01;35m[K^~~~[m[K
+[3.761s] 
+[3.761s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:110:31:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.762s]   110 |                         float [01;35m[Kg[m[K = 0.0;
+[3.762s]       |                               [01;35m[K^[m[K
+[3.762s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:180:60:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<std::vector<float> >[m[K’ to ‘[01m[Kfloat**[m[K’
+[3.762s]   180 |                 float returnValue = newHelper.findMaxValue([01;31m[KC[m[K);
+[3.762s]       |                                                            [01;31m[K^[m[K
+[3.763s]       |                                                            [01;31m[K|[m[K
+[3.763s]       |                                                            [01;31m[Kstd::vector<std::vector<float> >[m[K
+[3.763s] In file included from [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:8[m[K:
+[3.763s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:20:34:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kfloat Helper::findMaxValue(float**)[m[K’
+[3.763s]    20 |       float findMaxValue([01;36m[Kfloat** C[m[K)
+[3.764s]       |                          [01;36m[K~~~~~~~~^[m[K
+[3.764s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:47:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_max[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.764s]    47 |                 float [01;35m[Kangle_max[m[K = msg->angle_max;
+[3.764s]       |                       [01;35m[K^~~~~~~~~[m[K
+[3.765s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:49:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krange_min[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.765s]    49 |                 float [01;35m[Krange_min[m[K = msg->range_min;
+[3.765s]       |                       [01;35m[K^~~~~~~~~[m[K
+[3.765s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:50:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krange_max[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.765s]    50 |                 float [01;35m[Krange_max[m[K = msg->range_max;
+[3.765s]       |                       [01;35m[K^~~~~~~~~[m[K
+[3.766s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:72:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KNrOfMeas[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.766s]    72 |                 int [01;35m[KNrOfMeas[m[K=ranges.size();
+[3.766s]       |                     [01;35m[K^~~~~~~~[m[K
+[3.766s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:94:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktres[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.766s]    94 |                 float [01;35m[Ktres[m[K=0.1;
+[3.767s]       |                       [01;35m[K^~~~[m[K
+[3.767s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:180:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KreturnValue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.767s]   180 |                 float [01;35m[KreturnValue[m[K = newHelper.findMaxValue(C);
+[3.767s]       |                       [01;35m[K^~~~~~~~~~~[m[K
+[7.587s] gmake[2]: *** [CMakeFiles/rwth_publish.dir/build.make:76: CMakeFiles/rwth_publish.dir/src/rwth.cpp.o] Error 1
+[7.587s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rwth_publish.dir/all] Error 2
+[7.588s] gmake: *** [Makefile:146: all] Error 2
+[7.593s] Invoked command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth -- -j8 -l8

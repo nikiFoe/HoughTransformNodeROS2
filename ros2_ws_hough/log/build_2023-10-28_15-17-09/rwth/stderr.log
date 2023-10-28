@@ -1,0 +1,21 @@
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:[m[K In lambda function:
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:62:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   62 |                         for(int i = 0; [01;35m[Ki < ranges.size()[m[K; i++)
+      |                                        [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:72:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   72 |                         for (int i = 0; [01;35m[Ki < ranges.size()[m[K; ++i) {
+      |                                         [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:177:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KHelperRWTH::creatPeakMatrix(float&, const float&, std::vector<float>&)[m[K’
+  177 |                         float** C_s = [01;31m[KnewHelper.creatPeakMatrix(dTheta, delta, ranges)[m[K;
+      |                                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:9[m[K:
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:63:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kfloat** HelperRWTH::creatPeakMatrix(float, float, std::vector<float>, std::vector<float>)[m[K’
+   63 |       float** [01;36m[KcreatPeakMatrix[m[K(float dTheta,const float delta, std::vector<float> ranges, std::vector<float> phi){
+      |               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:63:15:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 3 provided
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:177:33:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KC_s[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  177 |                         float** [01;35m[KC_s[m[K = newHelper.creatPeakMatrix(dTheta, delta, ranges);
+      |                                 [01;35m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/rwth_publish.dir/build.make:76: CMakeFiles/rwth_publish.dir/src/rwth.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rwth_publish.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

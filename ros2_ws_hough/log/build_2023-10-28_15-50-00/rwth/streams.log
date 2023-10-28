@@ -1,0 +1,71 @@
+[0.141s] Invoking command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth -- -j8 -l8
+[0.224s] [35m[1mConsolidate compiler generated dependencies of target rwth_publish[0m
+[0.264s] [ 50%] [32mBuilding CXX object CMakeFiles/rwth_publish.dir/src/rwth.cpp.o[0m
+[3.988s] In file included from [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:9[m[K:
+[3.988s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:144:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[3.988s]   144 |       std::tuple<std::vector<float>, std::vector<float>, std:vector<float[01;31m[K>>[m[K creatArray(std::vector<float> ranges, float angle_min, float angle_increment, float dTheta, float delta)
+[3.989s]       |                                                                          [01;31m[K^~[m[K
+[3.998s] In file included from [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:9[m[K:
+[3.999s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:[m[K In member function ‘[01m[Kint HelperRWTH::creatArray(std::vector<float>, float, float, float, float)[m[K’:
+[3.999s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:147:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.999s]   147 |           for(int i = 0; [01;35m[Ki < ranges.size()[m[K; i++)
+[3.999s]       |                          [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[4.005s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:169:33:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::tuple<std::vector<float, std::allocator<float> >, std::vector<float, std::allocator<float> >, std::vector<float, std::allocator<float> > >[m[K’ to ‘[01m[Kint[m[K’ in return
+[4.006s]   169 |           return [01;31m[Kstd::make_tuple(phi, ThAxis, phi)[m[K;
+[4.006s]       |                  [01;31m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[4.006s]       |                                 [01;31m[K|[m[K
+[4.006s]       |                                 [01;31m[Kstd::tuple<std::vector<float, std::allocator<float> >, std::vector<float, std::allocator<float> >, std::vector<float, std::allocator<float> > >[m[K
+[4.090s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:[m[K In lambda function:
+[4.091s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:62:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.091s]    62 |                         for(int i = 0; [01;35m[Ki < ranges.size()[m[K; i++)
+[4.091s]       |                                        [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[4.091s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:73:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.092s]    73 |                         for (int i = 0; [01;35m[Ki < ranges.size()[m[K; ++i) {
+[4.092s]       |                                         [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[4.096s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:107:143:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>[m[K’ and ‘[01m[Kint[m[K’)
+[4.097s]   107 |                 std::tie(resultVector1, resultVector2, resultVector3) = newHelper.creatArray(ranges, angle_min, angle_increment, dTheta, delta[01;31m[K)[m[K;
+[4.097s]       |                                                                                                                                               [01;31m[K^[m[K
+[4.097s] In file included from [01m[K/usr/include/c++/11/functional:54[m[K,
+[4.097s]                  from [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:2[m[K:
+[4.097s] [01m[K/usr/include/c++/11/tuple:921:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _UElements> std::__enable_if_t<__assignable<const _UElements& ...>(), std::tuple<_Elements>&> std::tuple<_Elements>::operator=(const std::tuple<_Args1 ...>&) [with _UElements = {_UElements ...}; _Elements = {std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&}][m[K’
+[4.098s]   921 |         [01;36m[Koperator[m[K=(const tuple<_UElements...>& __in)
+[4.098s]       |         [01;36m[K^~~~~~~~[m[K
+[4.098s] [01m[K/usr/include/c++/11/tuple:921:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.098s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:107:143:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::tuple<_Tps ...>[m[K’ and ‘[01m[Kint[m[K’
+[4.098s]   107 |                 std::tie(resultVector1, resultVector2, resultVector3) = newHelper.creatArray(ranges, angle_min, angle_increment, dTheta, delta[01;36m[K)[m[K;
+[4.098s]       |                                                                                                                                               [01;36m[K^[m[K
+[4.098s] In file included from [01m[K/usr/include/c++/11/functional:54[m[K,
+[4.099s]                  from [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:2[m[K:
+[4.099s] [01m[K/usr/include/c++/11/tuple:931:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _UElements> std::__enable_if_t<__assignable<_UElements ...>(), std::tuple<_Elements>&> std::tuple<_Elements>::operator=(std::tuple<_Args1 ...>&&) [with _UElements = {_UElements ...}; _Elements = {std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&}][m[K’
+[4.099s]   931 |         [01;36m[Koperator[m[K=(tuple<_UElements...>&& __in)
+[4.099s]       |         [01;36m[K^~~~~~~~[m[K
+[4.099s] [01m[K/usr/include/c++/11/tuple:931:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.099s] [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:107:143:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::tuple<_Tps ...>[m[K’ and ‘[01m[Kint[m[K’
+[4.099s]   107 |                 std::tie(resultVector1, resultVector2, resultVector3) = newHelper.creatArray(ranges, angle_min, angle_increment, dTheta, delta[01;36m[K)[m[K;
+[4.100s]       |                                                                                                                                               [01;36m[K^[m[K
+[4.100s] In file included from [01m[K/usr/include/c++/11/functional:54[m[K,
+[4.100s]                  from [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:2[m[K:
+[4.100s] [01m[K/usr/include/c++/11/tuple:898:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::tuple<_Elements>& std::tuple<_Elements>::operator=(typename std::conditional<__assignable<const _Elements& ...>(), const std::tuple<_Elements>&, const std::__nonesuch&>::type) [with _Elements = {std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&}; typename std::conditional<__assignable<const _Elements& ...>(), const std::tuple<_Elements>&, const std::__nonesuch&>::type = const std::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>&][m[K’
+[4.100s]   898 |       [01;36m[Koperator[m[K=(typename conditional<__assignable<const _Elements&...>(),
+[4.100s]       |       [01;36m[K^~~~~~~~[m[K
+[4.100s] [01m[K/usr/include/c++/11/tuple:900:63:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::conditional<true, const std::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>&, const std::__nonesuch&>::type[m[K’ {aka ‘[01m[Kconst std::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>&[m[K’}
+[4.100s]   898 |       operator=([01;36m[Ktypename conditional<__assignable<const _Elements&...>(),[m[K
+[4.101s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.101s]   899 | [01;36m[K                                     const tuple&,[m[K
+[4.101s]       |                                      [01;36m[K~~~~~~~~~~~~~[m[K             
+[4.101s]   900 | [01;36m[K                                     const __nonesuch&>::type __in[m[K)
+[4.101s]       |                                      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[4.101s] [01m[K/usr/include/c++/11/tuple:909:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::tuple<_Elements>& std::tuple<_Elements>::operator=(typename std::conditional<__assignable<_Elements ...>(), std::tuple<_Elements>&&, std::__nonesuch&&>::type) [with _Elements = {std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&}; typename std::conditional<__assignable<_Elements ...>(), std::tuple<_Elements>&&, std::__nonesuch&&>::type = std::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>&&][m[K’
+[4.101s]   909 |       [01;36m[Koperator[m[K=(typename conditional<__assignable<_Elements...>(),
+[4.102s]       |       [01;36m[K^~~~~~~~[m[K
+[4.102s] [01m[K/usr/include/c++/11/tuple:911:58:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kstd::conditional<true, std::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>&&, std::__nonesuch&&>::type[m[K’ {aka ‘[01m[Kstd::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>&&[m[K’}
+[4.102s]   909 |       operator=([01;36m[Ktypename conditional<__assignable<_Elements...>(),[m[K
+[4.102s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.102s]   910 | [01;36m[K                                     tuple&&,[m[K
+[4.102s]       |                                      [01;36m[K~~~~~~~~[m[K             
+[4.102s]   911 | [01;36m[K                                     __nonesuch&&>::type __in[m[K)
+[4.102s]       |                                      [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[8.363s] gmake[2]: *** [CMakeFiles/rwth_publish.dir/build.make:76: CMakeFiles/rwth_publish.dir/src/rwth.cpp.o] Error 1
+[8.363s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rwth_publish.dir/all] Error 2
+[8.364s] gmake: *** [Makefile:146: all] Error 2
+[8.373s] Invoked command in '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth -- -j8 -l8

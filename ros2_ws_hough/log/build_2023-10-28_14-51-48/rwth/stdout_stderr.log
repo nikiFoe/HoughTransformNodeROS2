@@ -1,0 +1,47 @@
+[35m[1mConsolidate compiler generated dependencies of target rwth_publish[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rwth_publish.dir/src/rwth.cpp.o[0m
+In file included from [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:9[m[K:
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:18:7:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KHelper[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   18 |       [01;31m[KHelper[m[K(int row, int col){
+      |       [01;31m[K^~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:63:55:[m[K [01;31m[Kerror: [m[K‘[01m[Krow[m[K’ has not been declared
+   63 |       std::vector<std::vector<float>> creatPeakMatrix([01;31m[Krow[m[K, col){
+      |                                                       [01;31m[K^~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:63:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kcol[m[K’ has not been declared
+   63 |       std::vector<std::vector<float>> creatPeakMatrix(row, [01;31m[Kcol[m[K){
+      |                                                            [01;31m[K^~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:[m[K In member function ‘[01m[Kint HelperRWTH::Helper(int, int)[m[K’:
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:21:7:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   21 |       [01;35m[K}[m[K
+      |       [01;35m[K^[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:[m[K In member function ‘[01m[Kstd::vector<std::vector<float> > HelperRWTH::creatPeakMatrix(int, int)[m[K’:
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:64:48:[m[K [01;31m[Kerror: [m[K‘[01m[Krow[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw[m[K’?
+   64 |         std::vector<std::vector<float>> matrix([01;31m[Krow[m[K, std::vector<int>(col, 0));
+      |                                                [01;31m[K^~~[m[K
+      |                                                [32m[Krmw[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:64:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kcol[m[K’ was not declared in this scope; did you mean ‘[01m[Kcosl[m[K’?
+   64 |         std::vector<std::vector<float>> matrix(row, std::vector<int>([01;31m[Kcol[m[K, 0));
+      |                                                                      [01;31m[K^~~[m[K
+      |                                                                      [32m[Kcosl[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:[m[K In lambda function:
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:62:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   62 |                         for(int i = 0; [01;35m[Ki < ranges.size()[m[K; i++)
+      |                                        [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:72:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   72 |                         for (int i = 0; [01;35m[Ki < ranges.size()[m[K; ++i) {
+      |                                         [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:169:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KHelperRWTH::HelperRWTH(int&, const int&)[m[K’
+  169 |                         HelperRWTH newHelper(Nr, NTh[01;31m[K)[m[K;
+      |                                                     [01;31m[K^[m[K
+In file included from [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:9[m[K:
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:11:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KHelperRWTH::HelperRWTH()[m[K’
+   11 | class [01;36m[KHelperRWTH[m[K
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:11:7:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:11:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr HelperRWTH::HelperRWTH(const HelperRWTH&)[m[K’
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:11:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:11:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr HelperRWTH::HelperRWTH(HelperRWTH&&)[m[K’
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:11:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+gmake[2]: *** [CMakeFiles/rwth_publish.dir/build.make:76: CMakeFiles/rwth_publish.dir/src/rwth.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rwth_publish.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

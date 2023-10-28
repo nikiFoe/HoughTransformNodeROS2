@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target rwth_publish[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rwth_publish.dir/src/rwth.cpp.o[0m
+In file included from [01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:9[m[K:
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:144:180:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+  144 |       std::tuple<std::vector<float>, std::vector<float, std::vector<float>> creatArray(std::vector<float> ranges, float angle_min, float angle_increment, float dTheta, float delta[01;31m[K)[m[K
+      |                                                                                                                                                                                    [01;31m[K^[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:145:7:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+  145 |       [01;31m[K{[m[K
+      |       [01;31m[K^[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:[m[K In lambda function:
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:62:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   62 |                         for(int i = 0; [01;35m[Ki < ranges.size()[m[K; i++)
+      |                                        [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:73:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   73 |                         for (int i = 0; [01;35m[Ki < ranges.size()[m[K; ++i) {
+      |                                         [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:107:83:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass HelperRWTH[m[K’ has no member named ‘[01m[KcreatArray[m[K’
+  107 |                 std::tie(resultVector1, resultVector2, resultVector3) = newHelper.[01;31m[KcreatArray[m[K(ranges, angle_min, angle_increment, dTheta, delta);
+      |                                                                                   [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/rwth_publish.dir/build.make:76: CMakeFiles/rwth_publish.dir/src/rwth.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rwth_publish.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

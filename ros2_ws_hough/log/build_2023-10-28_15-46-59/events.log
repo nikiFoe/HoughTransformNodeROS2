@@ -1,0 +1,188 @@
+[0.000000] (-) TimerEvent: {}
+[0.000616] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000695] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000753] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.001075] (-) JobUnselected: {'identifier': 'houghmessage'}
+[0.001750] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.001971] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.002056] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.002335] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.002809] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.002973] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.003024] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.003099] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.003149] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.003198] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.003328] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.003408] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.003504] (rwth) JobQueued: {'identifier': 'rwth', 'dependencies': OrderedDict()}
+[0.003578] (rwth) JobStarted: {'identifier': 'rwth'}
+[0.100014] (-) TimerEvent: {}
+[0.133518] (rwth) JobProgress: {'identifier': 'rwth', 'progress': 'cmake'}
+[0.134702] (rwth) JobProgress: {'identifier': 'rwth', 'progress': 'build'}
+[0.136247] (rwth) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth', '--', '-j8', '-l8'], 'cwd': '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'niklas'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_msgs/lib:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/houghmessage/lib:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_custom_interfaces/lib:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/niklas'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '3607'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'niklas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'niklas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/humble/bin:/home/niklas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/niklas-Lenovo-V155-15API:@/tmp/.ICE-unix/1791,unix/niklas-Lenovo-V155-15API:/tmp/.ICE-unix/1791'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c6f41aca_5891_4ead_9b51_a863747ef2a7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.4141C2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.137'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_simulations:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_bringup:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_node:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_navigation2:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_fake_node:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_msgs:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_description:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_cartographer:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/houghmessage:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_examples:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_custom_interfaces:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/build/rwth'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example/lib/python3.10/site-packages:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/houghmessage/local/lib/python3.10/dist-packages:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_simulations:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_bringup:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_node:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_navigation2:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_fake_node:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_msgs:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_gazebo:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_description:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_cartographer:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/rwth:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/houghmessage:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_examples:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk_custom_interfaces:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/dynamixel_sdk:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_teleop:/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.200204] (-) TimerEvent: {}
+[0.231277] (rwth) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rwth_publish\x1b[0m\n'}
+[0.270431] (rwth) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rwth_publish.dir/src/rwth.cpp.o\x1b[0m\n'}
+[0.300333] (-) TimerEvent: {}
+[0.400731] (-) TimerEvent: {}
+[0.501143] (-) TimerEvent: {}
+[0.601620] (-) TimerEvent: {}
+[0.702102] (-) TimerEvent: {}
+[0.802585] (-) TimerEvent: {}
+[0.903053] (-) TimerEvent: {}
+[1.003568] (-) TimerEvent: {}
+[1.104046] (-) TimerEvent: {}
+[1.204590] (-) TimerEvent: {}
+[1.305075] (-) TimerEvent: {}
+[1.405557] (-) TimerEvent: {}
+[1.506049] (-) TimerEvent: {}
+[1.606679] (-) TimerEvent: {}
+[1.707160] (-) TimerEvent: {}
+[1.807652] (-) TimerEvent: {}
+[1.908084] (-) TimerEvent: {}
+[2.008480] (-) TimerEvent: {}
+[2.109097] (-) TimerEvent: {}
+[2.209654] (-) TimerEvent: {}
+[2.310231] (-) TimerEvent: {}
+[2.410750] (-) TimerEvent: {}
+[2.511247] (-) TimerEvent: {}
+[2.611655] (-) TimerEvent: {}
+[2.712098] (-) TimerEvent: {}
+[2.812584] (-) TimerEvent: {}
+[2.913183] (-) TimerEvent: {}
+[3.013609] (-) TimerEvent: {}
+[3.114130] (-) TimerEvent: {}
+[3.214649] (-) TimerEvent: {}
+[3.315113] (-) TimerEvent: {}
+[3.415563] (-) TimerEvent: {}
+[3.516150] (-) TimerEvent: {}
+[3.616606] (-) TimerEvent: {}
+[3.717100] (-) TimerEvent: {}
+[3.817575] (-) TimerEvent: {}
+[3.918139] (-) TimerEvent: {}
+[4.004771] (rwth) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:9\x1b[m\x1b[K:\n'}
+[4.005179] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::tuple<std::vector<float, std::allocator<float> >, std::vector<float, std::allocator<float> > > HelperRWTH::creatArray(std::vector<float>, float, float, float, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.005356] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/helper.hpp:147:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.005531] (rwth) StderrLine: {'line': b'  147 |           for(int i = 0; \x1b[01;35m\x1b[Ki < ranges.size()\x1b[m\x1b[K; i++)\n'}
+[4.005683] (rwth) StderrLine: {'line': b'      |                          \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.018294] (-) TimerEvent: {}
+[4.074536] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[4.074904] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:62:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.075085] (rwth) StderrLine: {'line': b'   62 |                         for(int i = 0; \x1b[01;35m\x1b[Ki < ranges.size()\x1b[m\x1b[K; i++)\n'}
+[4.075255] (rwth) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.075423] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:73:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<float>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.075596] (rwth) StderrLine: {'line': b'   73 |                         for (int i = 0; \x1b[01;35m\x1b[Ki < ranges.size()\x1b[m\x1b[K; ++i) {\n'}
+[4.075749] (rwth) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.081511] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:107:143:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::tuple<std::vector<float, std::allocator<float> >, std::vector<float, std::allocator<float> > >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[4.081871] (rwth) StderrLine: {'line': b'  107 |                 std::tie(resultVector1, resultVector2, resultVector3) = newHelper.creatArray(ranges, angle_min, angle_increment, dTheta, delta\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.082121] (rwth) StderrLine: {'line': b'      |                                                                                                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.082441] (rwth) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[4.082594] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:2\x1b[m\x1b[K:\n'}
+[4.082765] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:921:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _UElements> std::__enable_if_t<__assignable<const _UElements& ...>(), std::tuple<_Elements>&> std::tuple<_Elements>::operator=(const std::tuple<_Args1 ...>&) [with _UElements = {_UElements ...}; _Elements = {std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.083331] (rwth) StderrLine: {'line': b'  921 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const tuple<_UElements...>& __in)\n'}
+[4.083505] (rwth) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.083660] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:921:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.083872] (rwth) StderrLine: {'line': b'/usr/include/c++/11/tuple: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _UElements> std::__enable_if_t<__assignable<const _UElements& ...>(), std::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>&> std::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>::operator=<_UElements ...>(const std::tuple<_Tps ...>&) [with _UElements = {std::vector<float, std::allocator<float> >, std::vector<float, std::allocator<float> >}]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.084065] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:107:133:\x1b[m\x1b[K   required from here\n'}
+[4.084225] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:920:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>::__assignable<const std::vector<float, std::allocator<float> >&, const std::vector<float, std::allocator<float> >&>()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.084388] (rwth) StderrLine: {'line': b'  920 |         __enable_if_t<\x1b[01;31m\x1b[K__assignable<const _UElements&...>()\x1b[m\x1b[K, tuple&>\n'}
+[4.084539] (rwth) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[4.084684] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:643:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _UElements> static constexpr std::__enable_if_t<(sizeof... (_UElements) == sizeof... (_Elements)), bool> std::tuple<_Elements>::__assignable() [with _UElements = {_UElements ...}; _Elements = {std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.084840] (rwth) StderrLine: {'line': b'  643 |         \x1b[01;36m\x1b[K__assignable\x1b[m\x1b[K()\n'}
+[4.084975] (rwth) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.085105] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:643:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.085254] (rwth) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ratio:39\x1b[m\x1b[K,\n'}
+[4.085404] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/chrono:39\x1b[m\x1b[K,\n'}
+[4.085568] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:1\x1b[m\x1b[K:\n'}
+[4.085722] (rwth) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<bool _Cond, class _Tp> using __enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = bool]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.085885] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:643:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _UElements> static constexpr std::__enable_if_t<(sizeof... (_UElements) == 3), bool> std::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>::__assignable<_UElements ...>() [with _UElements = {const std::vector<float, std::allocator<float> >&, const std::vector<float, std::allocator<float> >&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.086073] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:920:50:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _UElements> std::__enable_if_t<__assignable<const _UElements& ...>(), std::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>&> std::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>::operator=<_UElements ...>(const std::tuple<_Tps ...>&) [with _UElements = {std::vector<float, std::allocator<float> >, std::vector<float, std::allocator<float> >}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.086267] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:107:133:\x1b[m\x1b[K   required from here\n'}
+[4.086413] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2205:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, bool>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.086557] (rwth) StderrLine: {'line': b' 2205 |     using \x1b[01;31m\x1b[K__enable_if_t\x1b[m\x1b[K = typename enable_if<_Cond, _Tp>::type;\n'}
+[4.086689] (rwth) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.086850] (rwth) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:54\x1b[m\x1b[K,\n'}
+[4.087299] (rwth) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:2\x1b[m\x1b[K:\n'}
+[4.087640] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:931:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _UElements> std::__enable_if_t<__assignable<_UElements ...>(), std::tuple<_Elements>&> std::tuple<_Elements>::operator=(std::tuple<_Args1 ...>&&) [with _UElements = {_UElements ...}; _Elements = {std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.087834] (rwth) StderrLine: {'line': b'  931 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(tuple<_UElements...>&& __in)\n'}
+[4.088006] (rwth) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.088169] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:931:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.088337] (rwth) StderrLine: {'line': b'/usr/include/c++/11/tuple: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _UElements> std::__enable_if_t<__assignable<_UElements ...>(), std::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>&> std::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>::operator=<_UElements ...>(std::tuple<_Tps ...>&&) [with _UElements = {std::vector<float, std::allocator<float> >, std::vector<float, std::allocator<float> >}]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.088529] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niklas/Documents/Telerrobotics/Lab2/ros2_ws_hough/src/rwth/src/rwth.cpp:107:133:\x1b[m\x1b[K   required from here\n'}
+[4.088699] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:930:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>::__assignable<std::vector<float, std::allocator<float> >, std::vector<float, std::allocator<float> > >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.088876] (rwth) StderrLine: {'line': b'  930 |         __enable_if_t<\x1b[01;31m\x1b[K__assignable<_UElements...>()\x1b[m\x1b[K, tuple&>\n'}
+[4.089034] (rwth) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[4.089194] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:643:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _UElements> static constexpr std::__enable_if_t<(sizeof... (_UElements) == sizeof... (_Elements)), bool> std::tuple<_Elements>::__assignable() [with _UElements = {_UElements ...}; _Elements = {std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.089362] (rwth) StderrLine: {'line': b'  643 |         \x1b[01;36m\x1b[K__assignable\x1b[m\x1b[K()\n'}
+[4.089549] (rwth) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.089909] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:643:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.090127] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:898:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::tuple<_Elements>& std::tuple<_Elements>::operator=(typename std::conditional<__assignable<const _Elements& ...>(), const std::tuple<_Elements>&, const std::__nonesuch&>::type) [with _Elements = {std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&}; typename std::conditional<__assignable<const _Elements& ...>(), const std::tuple<_Elements>&, const std::__nonesuch&>::type = const std::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>&]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.090376] (rwth) StderrLine: {'line': b'  898 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(typename conditional<__assignable<const _Elements&...>(),\n'}
+[4.090538] (rwth) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.090694] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:900:63:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::tuple<std::vector<float, std::allocator<float> >, std::vector<float, std::allocator<float> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::conditional<true, const std::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>&, const std::__nonesuch&>::type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.090916] (rwth) StderrLine: {'line': b'  898 |       operator=(\x1b[01;36m\x1b[Ktypename conditional<__assignable<const _Elements&...>(),\x1b[m\x1b[K\n'}
+[4.091090] (rwth) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.091245] (rwth) StderrLine: {'line': b'  899 | \x1b[01;36m\x1b[K                                     const tuple&,\x1b[m\x1b[K\n'}
+[4.091408] (rwth) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~\x1b[m\x1b[K             \n'}
+[4.091560] (rwth) StderrLine: {'line': b'  900 | \x1b[01;36m\x1b[K                                     const __nonesuch&>::type __in\x1b[m\x1b[K)\n'}
+[4.091764] (rwth) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[4.092061] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:909:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::tuple<_Elements>& std::tuple<_Elements>::operator=(typename std::conditional<__assignable<_Elements ...>(), std::tuple<_Elements>&&, std::__nonesuch&&>::type) [with _Elements = {std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&}; typename std::conditional<__assignable<_Elements ...>(), std::tuple<_Elements>&&, std::__nonesuch&&>::type = std::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>&&]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.092243] (rwth) StderrLine: {'line': b'  909 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(typename conditional<__assignable<_Elements...>(),\n'}
+[4.092408] (rwth) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.092578] (rwth) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/tuple:911:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::tuple<std::vector<float, std::allocator<float> >, std::vector<float, std::allocator<float> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::conditional<true, std::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>&&, std::__nonesuch&&>::type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::tuple<std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&, std::vector<float, std::allocator<float> >&>&&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[4.092743] (rwth) StderrLine: {'line': b'  909 |       operator=(\x1b[01;36m\x1b[Ktypename conditional<__assignable<_Elements...>(),\x1b[m\x1b[K\n'}
+[4.092904] (rwth) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.093051] (rwth) StderrLine: {'line': b'  910 | \x1b[01;36m\x1b[K                                     tuple&&,\x1b[m\x1b[K\n'}
+[4.093209] (rwth) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~~~~~~~~\x1b[m\x1b[K             \n'}
+[4.093358] (rwth) StderrLine: {'line': b'  911 | \x1b[01;36m\x1b[K                                     __nonesuch&&>::type __in\x1b[m\x1b[K)\n'}
+[4.093527] (rwth) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[4.118443] (-) TimerEvent: {}
+[4.219064] (-) TimerEvent: {}
+[4.319836] (-) TimerEvent: {}
+[4.420595] (-) TimerEvent: {}
+[4.521252] (-) TimerEvent: {}
+[4.621727] (-) TimerEvent: {}
+[4.722211] (-) TimerEvent: {}
+[4.822696] (-) TimerEvent: {}
+[4.923376] (-) TimerEvent: {}
+[5.024304] (-) TimerEvent: {}
+[5.124856] (-) TimerEvent: {}
+[5.225423] (-) TimerEvent: {}
+[5.325954] (-) TimerEvent: {}
+[5.426475] (-) TimerEvent: {}
+[5.527025] (-) TimerEvent: {}
+[5.627634] (-) TimerEvent: {}
+[5.728199] (-) TimerEvent: {}
+[5.828746] (-) TimerEvent: {}
+[5.929325] (-) TimerEvent: {}
+[6.029940] (-) TimerEvent: {}
+[6.130391] (-) TimerEvent: {}
+[6.230880] (-) TimerEvent: {}
+[6.331421] (-) TimerEvent: {}
+[6.431899] (-) TimerEvent: {}
+[6.532437] (-) TimerEvent: {}
+[6.632989] (-) TimerEvent: {}
+[6.733522] (-) TimerEvent: {}
+[6.833926] (-) TimerEvent: {}
+[6.934391] (-) TimerEvent: {}
+[7.034870] (-) TimerEvent: {}
+[7.135440] (-) TimerEvent: {}
+[7.235892] (-) TimerEvent: {}
+[7.336342] (-) TimerEvent: {}
+[7.436895] (-) TimerEvent: {}
+[7.537307] (-) TimerEvent: {}
+[7.637793] (-) TimerEvent: {}
+[7.738277] (-) TimerEvent: {}
+[7.838844] (-) TimerEvent: {}
+[7.939335] (-) TimerEvent: {}
+[8.039927] (-) TimerEvent: {}
+[8.140645] (-) TimerEvent: {}
+[8.157361] (rwth) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rwth_publish.dir/build.make:76: CMakeFiles/rwth_publish.dir/src/rwth.cpp.o] Error 1\n'}
+[8.158353] (rwth) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rwth_publish.dir/all] Error 2\n'}
+[8.158696] (rwth) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.162514] (rwth) CommandEnded: {'returncode': 2}
+[8.240824] (-) TimerEvent: {}
+[8.338375] (rwth) JobEnded: {'identifier': 'rwth', 'rc': 2}
+[8.340919] (-) TimerEvent: {}
+[8.349096] (-) EventReactorShutdown: {}
